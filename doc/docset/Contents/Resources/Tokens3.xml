@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GravityItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GravityItem</TokenIdentifier>
+			<Abstract type="html">An item in the recommendation</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setId:</TokenIdentifier>
+			<Abstract type="html">Id of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *Id</Declaration>
+			
+			
+			<Anchor>//api/name/Id</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/Id</TokenIdentifier>
+			<Abstract type="html">Id of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *Id</Declaration>
+			
+			
+			<Anchor>//api/name/Id</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/Id</TokenIdentifier>
+			<Abstract type="html">Id of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *Id</Declaration>
+			
+			
+			<Anchor>//api/name/Id</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setType:</TokenIdentifier>
+			<Abstract type="html">Type of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/type</TokenIdentifier>
+			<Abstract type="html">Type of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/type</TokenIdentifier>
+			<Abstract type="html">Type of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setTitle:</TokenIdentifier>
+			<Abstract type="html">Title of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/title</TokenIdentifier>
+			<Abstract type="html">Title of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/title</TokenIdentifier>
+			<Abstract type="html">Title of the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setHidden:</TokenIdentifier>
+			<Abstract type="html">Defines whether the item is visible to users</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/hidden</TokenIdentifier>
+			<Abstract type="html">Defines whether the item is visible to users</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/hidden</TokenIdentifier>
+			<Abstract type="html">Defines whether the item is visible to users</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property BOOL hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setFromDate:</TokenIdentifier>
+			<Abstract type="html">An item is never recommended before this date.</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSDate *fromDate</Declaration>
+			
+			
+			<Anchor>//api/name/fromDate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/fromDate</TokenIdentifier>
+			<Abstract type="html">An item is never recommended before this date.</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSDate *fromDate</Declaration>
+			
+			
+			<Anchor>//api/name/fromDate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/fromDate</TokenIdentifier>
+			<Abstract type="html">An item is never recommended before this date.</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSDate *fromDate</Declaration>
+			
+			
+			<Anchor>//api/name/fromDate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setToDate:</TokenIdentifier>
+			<Abstract type="html">An item is never recommended after this date.</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSDate *toDate</Declaration>
+			
+			
+			<Anchor>//api/name/toDate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/toDate</TokenIdentifier>
+			<Abstract type="html">An item is never recommended after this date.</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSDate *toDate</Declaration>
+			
+			
+			<Anchor>//api/name/toDate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/toDate</TokenIdentifier>
+			<Abstract type="html">An item is never recommended after this date.</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSDate *toDate</Declaration>
+			
+			
+			<Anchor>//api/name/toDate</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setNameValues:</TokenIdentifier>
+			<Abstract type="html">The NameValues for the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSMutableArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/nameValues</TokenIdentifier>
+			<Abstract type="html">The NameValues for the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSMutableArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/nameValues</TokenIdentifier>
+			<Abstract type="html">The NameValues for the item</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>@property NSMutableArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Initializes a GravityItem object with a dictionary</Abstract>
+			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">the dictionary representing the object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initialized GravityItem object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+	</File>
+</Tokens>
