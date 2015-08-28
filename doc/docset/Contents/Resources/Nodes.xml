@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>GravityClient</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="7"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>GravityClient</Name>
+			<Path>Classes/GravityClient.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>GravityEvent</Name>
+			<Path>Classes/GravityEvent.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>GravityItem</Name>
+			<Path>Classes/GravityItem.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>GravityItemRecommendation</Name>
+			<Path>Classes/GravityItemRecommendation.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>GravityNameValue</Name>
+			<Path>Classes/GravityNameValue.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>GravityRequest</Name>
+			<Path>Classes/GravityRequest.html</Path>
+		</Node>
+		
+		
+		<Node id="7">
+			<Name>GravityClientDelegate</Name>
+			<Path>Protocols/GravityClientDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

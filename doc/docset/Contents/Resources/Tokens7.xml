@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GravityClientDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GravityClientDelegate</TokenIdentifier>
+			<Abstract type="html">Protocol for the delegate of a GravityClient object</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GravityClientDelegate/didReceiveError:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when an error is occured during the connection</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>			
+			
+			<Declaration>- (void)didReceiveError:(NSString *)error forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">the error object</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveError:forRequest:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GravityClientDelegate/didReceiveResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when response is received for a request</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>			
+			
+			<Declaration>- (void)didReceiveResponse:(NSString *)response forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">the response</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveResponse:forRequest:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GravityClientDelegate/didReceiveRecommendation:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when recommendation is received for a request</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>			
+			
+			<Declaration>- (void)didReceiveRecommendation:(GravityItemRecommendation *)recommendation forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>recommendation</Name>
+					<Abstract type="html">the recommendation</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveRecommendation:forRequest:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+	</File>
+</Tokens>
