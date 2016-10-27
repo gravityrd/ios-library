@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GravityItem.h"
 
 /**
  The list of items recommended to a user

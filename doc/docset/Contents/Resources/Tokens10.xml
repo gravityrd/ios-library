@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GravityScenarioInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GravityScenarioInfo</TokenIdentifier>
+			<Abstract type="html">ScenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setId:</TokenIdentifier>
+			<Abstract type="html">Id of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *Id</Declaration>
+			
+			
+			<Anchor>//api/name/Id</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/Id</TokenIdentifier>
+			<Abstract type="html">Id of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *Id</Declaration>
+			
+			
+			<Anchor>//api/name/Id</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/Id</TokenIdentifier>
+			<Abstract type="html">Id of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *Id</Declaration>
+			
+			
+			<Anchor>//api/name/Id</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setApiName:</TokenIdentifier>
+			<Abstract type="html">Api name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *apiName</Declaration>
+			
+			
+			<Anchor>//api/name/apiName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/apiName</TokenIdentifier>
+			<Abstract type="html">Api name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *apiName</Declaration>
+			
+			
+			<Anchor>//api/name/apiName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/apiName</TokenIdentifier>
+			<Abstract type="html">Api name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *apiName</Declaration>
+			
+			
+			<Anchor>//api/name/apiName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setHumanReadableName:</TokenIdentifier>
+			<Abstract type="html">Human readable name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *humanReadableName</Declaration>
+			
+			
+			<Anchor>//api/name/humanReadableName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/humanReadableName</TokenIdentifier>
+			<Abstract type="html">Human readable name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *humanReadableName</Declaration>
+			
+			
+			<Anchor>//api/name/humanReadableName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/humanReadableName</TokenIdentifier>
+			<Abstract type="html">Human readable name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *humanReadableName</Declaration>
+			
+			
+			<Anchor>//api/name/humanReadableName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setDesc:</TokenIdentifier>
+			<Abstract type="html">Description of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *desc</Declaration>
+			
+			
+			<Anchor>//api/name/desc</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/desc</TokenIdentifier>
+			<Abstract type="html">Description of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *desc</Declaration>
+			
+			
+			<Anchor>//api/name/desc</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/desc</TokenIdentifier>
+			<Abstract type="html">Description of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *desc</Declaration>
+			
+			
+			<Anchor>//api/name/desc</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setOrder:</TokenIdentifier>
+			<Abstract type="html">Order of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *order</Declaration>
+			
+			
+			<Anchor>//api/name/order</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/order</TokenIdentifier>
+			<Abstract type="html">Order of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *order</Declaration>
+			
+			
+			<Anchor>//api/name/order</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/order</TokenIdentifier>
+			<Abstract type="html">Order of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *order</Declaration>
+			
+			
+			<Anchor>//api/name/order</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setNumberLimit:</TokenIdentifier>
+			<Abstract type="html">Number limit of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *numberLimit</Declaration>
+			
+			
+			<Anchor>//api/name/numberLimit</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/numberLimit</TokenIdentifier>
+			<Abstract type="html">Number limit of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *numberLimit</Declaration>
+			
+			
+			<Anchor>//api/name/numberLimit</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/numberLimit</TokenIdentifier>
+			<Abstract type="html">Number limit of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSNumber *numberLimit</Declaration>
+			
+			
+			<Anchor>//api/name/numberLimit</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setType:</TokenIdentifier>
+			<Abstract type="html">Type of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/type</TokenIdentifier>
+			<Abstract type="html">Type of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/type</TokenIdentifier>
+			<Abstract type="html">Type of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/setModifierName:</TokenIdentifier>
+			<Abstract type="html">Modifier name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *modifierName</Declaration>
+			
+			
+			<Anchor>//api/name/modifierName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/modifierName</TokenIdentifier>
+			<Abstract type="html">Modifier name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *modifierName</Declaration>
+			
+			
+			<Anchor>//api/name/modifierName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityScenarioInfo/modifierName</TokenIdentifier>
+			<Abstract type="html">Modifier name of the scenarioInfo</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>@property NSString *modifierName</Declaration>
+			
+			
+			<Anchor>//api/name/modifierName</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Initializes a GravityScenarioInfo object with a dictionary</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">the dictionary representing the object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initialized GravityScenarioInfo object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/initWithJSON:</TokenIdentifier>
+			<Abstract type="html">Initializes a GravityScenarioInfo object with JSON data</Abstract>
+			<DeclaredIn>GravityScenarioInfo.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithJSON:(NSData *)jsonData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>jsonData</Name>
+					<Abstract type="html">the JSON data representing the object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initialized GravityScenarioInfo object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJSON:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityScenarioInfo/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityScenarioInfo.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

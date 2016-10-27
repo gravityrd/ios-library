@@ -7,18 +7,18 @@
 //
 
 #import "GravityItemRecommendation.h"
+#import "GravityItem.h"
 
 @implementation GravityItemRecommendation
 
-- (id)initWithDictionary:(NSDictionary *)dict{
+- (id)initWithDictionary:(NSDictionary *)dict {
     self = [super init];
     if (self) {
         self.Id = dict[@"recommendationId"];
         self.itemIds = dict[@"itemIds"];
         self.predictionValues = dict[@"predictionValues"];
-        
         NSMutableArray *items = [NSMutableArray arrayWithCapacity:[dict[@"items"] count]];
-        for(NSDictionary *itemDict in dict[@"items"]){
+        for(NSDictionary *itemDict in dict[@"items"]) {
             GravityItem *item = [[GravityItem alloc] initWithDictionary:itemDict];
             [items addObject:item];
         }
@@ -27,19 +27,18 @@
     return self;
 }
 
-- (id)initWithJSON:(NSData *)jsonData
-{
+- (id)initWithJSON:(NSData *)jsonData {
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData: jsonData options: 0 error: nil];
     if (!dict) {
         NSLog(@"Error parsing JSON");
         return nil;
     }
-    
     self = [self initWithDictionary:dict];
-    if (self) {
-        
-    }
     return self;
+}
+
+- (NSString *)description {
+    return [NSString stringWithFormat: @"GravityItemRecommendation: id=%@ items=%@ itemIds=%@ predictionValues=%@", _Id, _items, _itemIds, _predictionValues];
 }
 
 @end

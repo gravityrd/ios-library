@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GravityNameValue.h"
 
 /**
  An item in the recommendation
@@ -55,5 +54,10 @@
  @return an initialized GravityItem object
  */
 - (id)initWithDictionary:(NSDictionary *)dict;
+
+/**
+ Converts a GravityItem array to JSON
+ */
++ (NSData *)itemsToJSON:(NSArray *)items;
 
 @end

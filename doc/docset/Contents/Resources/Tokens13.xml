@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SearchViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SearchViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/setTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SearchViewController/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/viewDidLoad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/numberOfSectionsInTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfSectionsInTableView:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:cellForRowAtIndexPath:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/tableView:didSelectRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:didSelectRowAtIndexPath:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/timerFireMethod:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)timerFireMethod:(NSTimer *)theTimer</Declaration>
+			
+			
+			<Anchor>//api/name/timerFireMethod:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/searchBar:textDidChange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText</Declaration>
+			
+			
+			<Anchor>//api/name/searchBar:textDidChange:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/didReceiveResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when response is received for a request</Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveResponse:(NSString *)response forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">the response</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveResponse:forRequest:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SearchViewController/didReceiveRecommendation:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when recommendation is received for a request</Abstract>
+			<DeclaredIn>SearchViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveRecommendation:(GravityItemRecommendation *)recommendation forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>recommendation</Name>
+					<Abstract type="html">the recommendation</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveRecommendation:forRequest:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

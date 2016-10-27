@@ -7,46 +7,30 @@
 //
 
 #import "GravityEvent.h"
+#import "GravityNameValue.h"
 
 @implementation GravityEvent
 
-- (id)init
-{
-    self = [super init];
-    if (self) {
-        self.time = [NSDate date];
-        self.nameValues = [NSMutableArray array];
-        
-        UIDevice *device = [UIDevice currentDevice];
-        NSString *country = [[NSLocale currentLocale] objectForKey: NSLocaleCountryCode];
-        [self.nameValues addObject:[GravityNameValue nameValueWithName:@"deviceName" value:[device name]]];
-        [self.nameValues addObject:[GravityNameValue nameValueWithName:@"country" value:country]];
-    }
-    return self;
+- (NSString *)description {
+    return [NSString stringWithFormat: @"GravityEvent: itemId=%@ userId=%@ type=%@ nameValues=%@", _itemId, _userId, _type, _nameValues];
 }
 
-- (NSDictionary *)dictionary{
-    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-    dict[@"eventType"] = self.type;
-    dict[@"time"] = [NSNumber numberWithInt:(int)[self.time timeIntervalSince1970]];
-    dict[@"itemId"] = self.itemId;
-    if(self.userId)
-        dict[@"userId"] = self.userId;
-    dict[@"cookieId"] = self.cookieId;
-    dict[@"recommendationId"] = self.recommendationId;
-    NSMutableArray *nameValues = [NSMutableArray array];
-    for (GravityNameValue *nameValue in self.nameValues) {
-        [nameValues addObject:[nameValue dictionary]];
++ (NSData *)eventsToJSON:(NSArray *)events {
+    NSMutableArray *data = [NSMutableArray arrayWithCapacity:events.count];
+    for(GravityEvent *event in events) {
+        NSMutableArray *nameValues = [NSMutableArray array];
+        for(GravityNameValue *nameValue in event.nameValues) {
+            [nameValues addObject:[nameValue dictionary]];
+        }
+        NSDictionary *dict = @{
+                               @"itemId": event.itemId,
+                               @"userId": event.userId,
+                               @"eventType": event.type,
+                               @"nameValues":nameValues
+                               };
+        [data addObject:dict];
     }
-    dict[@"nameValues"] = nameValues;
-    return dict;
-}
-
-- (NSData *) JSON{
-    NSArray *arr = @[[self dictionary]];
-    
-    NSLog(@"%i", [NSJSONSerialization isValidJSONObject:arr]);
-    return [NSJSONSerialization dataWithJSONObject:arr options:0 error:nil];
+    return [NSJSONSerialization dataWithJSONObject:data options:0 error:nil];
 }
 
 - (void)setLocation:(CLLocation *)location{
@@ -55,5 +39,4 @@
     [self.nameValues addObject:[GravityNameValue nameValueWithName:@"longitude" value:longitude]];
     [self.nameValues addObject:[GravityNameValue nameValueWithName:@"latitude" value:latitude]];
 }
-
 @end

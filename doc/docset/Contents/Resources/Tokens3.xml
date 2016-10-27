@@ -1,284 +1,793 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/GravityItem.html">
+	<File path="Classes/GravityClient.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/GravityItem</TokenIdentifier>
-			<Abstract type="html">An item in the recommendation</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/GravityClient</TokenIdentifier>
+			<Abstract type="html">A client for the Gravity recommendation service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+            
 			
 			<NodeRef refid="3"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setId:</TokenIdentifier>
-			<Abstract type="html">Id of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setDelegate:</TokenIdentifier>
+			<Abstract type="html">Delegate of GravityClient</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *Id</Declaration>
+			<Declaration>@property id&lt;GravityClientDelegate&gt; delegate</Declaration>
 			
 			
-			<Anchor>//api/name/Id</Anchor>
+			<Anchor>//api/name/delegate</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/Id</TokenIdentifier>
-			<Abstract type="html">Id of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate of GravityClient</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *Id</Declaration>
+			<Declaration>@property id&lt;GravityClientDelegate&gt; delegate</Declaration>
 			
 			
-			<Anchor>//api/name/Id</Anchor>
+			<Anchor>//api/name/delegate</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/Id</TokenIdentifier>
-			<Abstract type="html">Id of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/delegate</TokenIdentifier>
+			<Abstract type="html">Delegate of GravityClient</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *Id</Declaration>
+			<Declaration>@property id&lt;GravityClientDelegate&gt; delegate</Declaration>
 			
 			
-			<Anchor>//api/name/Id</Anchor>
+			<Anchor>//api/name/delegate</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setType:</TokenIdentifier>
-			<Abstract type="html">Type of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setBaseURL:</TokenIdentifier>
+			<Abstract type="html">Base URL of the REST service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *type</Declaration>
+			<Declaration>@property NSString *baseURL</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/baseURL</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/type</TokenIdentifier>
-			<Abstract type="html">Type of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/baseURL</TokenIdentifier>
+			<Abstract type="html">Base URL of the REST service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *type</Declaration>
+			<Declaration>@property NSString *baseURL</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/baseURL</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/type</TokenIdentifier>
-			<Abstract type="html">Type of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/baseURL</TokenIdentifier>
+			<Abstract type="html">Base URL of the REST service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *type</Declaration>
+			<Declaration>@property NSString *baseURL</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/baseURL</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setTitle:</TokenIdentifier>
-			<Abstract type="html">Title of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setUsername:</TokenIdentifier>
+			<Abstract type="html">Username to access the service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *title</Declaration>
+			<Declaration>@property NSString *username</Declaration>
 			
 			
-			<Anchor>//api/name/title</Anchor>
+			<Anchor>//api/name/username</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/title</TokenIdentifier>
-			<Abstract type="html">Title of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/username</TokenIdentifier>
+			<Abstract type="html">Username to access the service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *title</Declaration>
+			<Declaration>@property NSString *username</Declaration>
 			
 			
-			<Anchor>//api/name/title</Anchor>
+			<Anchor>//api/name/username</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/title</TokenIdentifier>
-			<Abstract type="html">Title of the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/username</TokenIdentifier>
+			<Abstract type="html">Username to access the service</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSString *title</Declaration>
+			<Declaration>@property NSString *username</Declaration>
 			
 			
-			<Anchor>//api/name/title</Anchor>
+			<Anchor>//api/name/username</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setHidden:</TokenIdentifier>
-			<Abstract type="html">Defines whether the item is visible to users</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setPassword:</TokenIdentifier>
+			<Abstract type="html">Password of the given username</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property BOOL hidden</Declaration>
+			<Declaration>@property NSString *password</Declaration>
 			
 			
-			<Anchor>//api/name/hidden</Anchor>
+			<Anchor>//api/name/password</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/hidden</TokenIdentifier>
-			<Abstract type="html">Defines whether the item is visible to users</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/password</TokenIdentifier>
+			<Abstract type="html">Password of the given username</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property BOOL hidden</Declaration>
+			<Declaration>@property NSString *password</Declaration>
 			
 			
-			<Anchor>//api/name/hidden</Anchor>
+			<Anchor>//api/name/password</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/hidden</TokenIdentifier>
-			<Abstract type="html">Defines whether the item is visible to users</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/password</TokenIdentifier>
+			<Abstract type="html">Password of the given username</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property BOOL hidden</Declaration>
+			<Declaration>@property NSString *password</Declaration>
 			
 			
-			<Anchor>//api/name/hidden</Anchor>
+			<Anchor>//api/name/password</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setFromDate:</TokenIdentifier>
-			<Abstract type="html">An item is never recommended before this date.</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setUserId:</TokenIdentifier>
+			<Abstract type="html">UserId of the authenticated client
+This will be automatically included in the request parameters</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSDate *fromDate</Declaration>
+			<Declaration>@property NSString *userId</Declaration>
 			
 			
-			<Anchor>//api/name/fromDate</Anchor>
+			<Anchor>//api/name/userId</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/fromDate</TokenIdentifier>
-			<Abstract type="html">An item is never recommended before this date.</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/userId</TokenIdentifier>
+			<Abstract type="html">UserId of the authenticated client
+This will be automatically included in the request parameters</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSDate *fromDate</Declaration>
+			<Declaration>@property NSString *userId</Declaration>
 			
 			
-			<Anchor>//api/name/fromDate</Anchor>
+			<Anchor>//api/name/userId</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/fromDate</TokenIdentifier>
-			<Abstract type="html">An item is never recommended before this date.</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/userId</TokenIdentifier>
+			<Abstract type="html">UserId of the authenticated client
+This will be automatically included in the request parameters</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSDate *fromDate</Declaration>
+			<Declaration>@property NSString *userId</Declaration>
 			
 			
-			<Anchor>//api/name/fromDate</Anchor>
+			<Anchor>//api/name/userId</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setToDate:</TokenIdentifier>
-			<Abstract type="html">An item is never recommended after this date.</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setCookieId:</TokenIdentifier>
+			<Abstract type="html">CookieId of the client
+This is automatically generated and unique for every device
+This will be automatically included in the request parameters</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSDate *toDate</Declaration>
+			<Declaration>@property NSString *cookieId</Declaration>
 			
 			
-			<Anchor>//api/name/toDate</Anchor>
+			<Anchor>//api/name/cookieId</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/toDate</TokenIdentifier>
-			<Abstract type="html">An item is never recommended after this date.</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/cookieId</TokenIdentifier>
+			<Abstract type="html">CookieId of the client
+This is automatically generated and unique for every device
+This will be automatically included in the request parameters</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSDate *toDate</Declaration>
+			<Declaration>@property NSString *cookieId</Declaration>
 			
 			
-			<Anchor>//api/name/toDate</Anchor>
+			<Anchor>//api/name/cookieId</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/toDate</TokenIdentifier>
-			<Abstract type="html">An item is never recommended after this date.</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/cookieId</TokenIdentifier>
+			<Abstract type="html">CookieId of the client
+This is automatically generated and unique for every device
+This will be automatically included in the request parameters</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSDate *toDate</Declaration>
+			<Declaration>@property NSString *cookieId</Declaration>
 			
 			
-			<Anchor>//api/name/toDate</Anchor>
+			<Anchor>//api/name/cookieId</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/setNameValues:</TokenIdentifier>
-			<Abstract type="html">The NameValues for the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setLastRecommandation:</TokenIdentifier>
+			<Abstract type="html">The last recommendation received by the client</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSMutableArray *nameValues</Declaration>
+			<Declaration>@property GravityItemRecommendation *lastRecommandation</Declaration>
 			
 			
-			<Anchor>//api/name/nameValues</Anchor>
+			<Anchor>//api/name/lastRecommandation</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/nameValues</TokenIdentifier>
-			<Abstract type="html">The NameValues for the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/lastRecommandation</TokenIdentifier>
+			<Abstract type="html">The last recommendation received by the client</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSMutableArray *nameValues</Declaration>
+			<Declaration>@property GravityItemRecommendation *lastRecommandation</Declaration>
 			
 			
-			<Anchor>//api/name/nameValues</Anchor>
+			<Anchor>//api/name/lastRecommandation</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityItem/nameValues</TokenIdentifier>
-			<Abstract type="html">The NameValues for the item</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/lastRecommandation</TokenIdentifier>
+			<Abstract type="html">The last recommendation received by the client</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>@property NSMutableArray *nameValues</Declaration>
+			<Declaration>@property GravityItemRecommendation *lastRecommandation</Declaration>
 			
 			
-			<Anchor>//api/name/nameValues</Anchor>
+			<Anchor>//api/name/lastRecommandation</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityItem/initWithDictionary:</TokenIdentifier>
-			<Abstract type="html">Initializes a GravityItem object with a dictionary</Abstract>
-			<DeclaredIn>GravityItem.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setRecommendedItems:</TokenIdentifier>
+			<Abstract type="html">List of items that have already been recommended</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
 			
-			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Declaration>@property NSMutableDictionary *recommendedItems</Declaration>
+			
+			
+			<Anchor>//api/name/recommendedItems</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/recommendedItems</TokenIdentifier>
+			<Abstract type="html">List of items that have already been recommended</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableDictionary *recommendedItems</Declaration>
+			
+			
+			<Anchor>//api/name/recommendedItems</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/recommendedItems</TokenIdentifier>
+			<Abstract type="html">List of items that have already been recommended</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableDictionary *recommendedItems</Declaration>
+			
+			
+			<Anchor>//api/name/recommendedItems</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/setLocation:</TokenIdentifier>
+			<Abstract type="html">Location of the client
+This will be automatically included in the events sent to the server</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>@property CLLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/location</TokenIdentifier>
+			<Abstract type="html">Location of the client
+This will be automatically included in the events sent to the server</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>@property CLLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityClient/location</TokenIdentifier>
+			<Abstract type="html">Location of the client
+This will be automatically included in the events sent to the server</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>@property CLLocation *location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GravityClient/escapeString:</TokenIdentifier>
+			<Abstract type="html">Escapes an URL string with percent signes</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)escapeString:(NSString *)aString</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>dict</Name>
-					<Abstract type="html">the dictionary representing the object</Abstract>
+					<Name>aString</Name>
+					<Abstract type="html">the string to be escaped</Abstract>
 				</Parameter>
 			</Parameters>
-			<ReturnValue><Abstract type="html">an initialized GravityItem object</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithDictionary:</Anchor>
+			<ReturnValue><Abstract type="html">the escaped string</Abstract></ReturnValue>
+			<Anchor>//api/name/escapeString:</Anchor>
             <NodeRef refid="3"/>
 		</Token>
 		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/initWithURL:</TokenIdentifier>
+			<Abstract type="html">Initalizes a GravityClient connection with an URL</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithURL:(NSString *)url</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">the url of the service</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initializes GravityClient object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithURL:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/initWithURL:username:password:</TokenIdentifier>
+			<Abstract type="html">Initalizes a GravityClient connection with an URL and credentials</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithURL:(NSString *)url username:(NSString *)username password:(NSString *)password</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>url</Name>
+					<Abstract type="html">the url of the service</Abstract>
+				</Parameter><Parameter>
+					<Name>username</Name>
+					<Abstract type="html">username to access the service</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">the password of the username</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initializes GravityClient object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithURL:username:password:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/sayHelloTo:</TokenIdentifier>
+			<Abstract type="html">Calls a test REST API call which says hello to the given name</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)sayHelloTo:(NSString *)name</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>name</Name>
+					<Abstract type="html">the name to say hello to</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/sayHelloTo:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/getItemRecommendations:limit:resultNameValues:</TokenIdentifier>
+			<Abstract type="html">Gets item recommendations</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)getItemRecommendations:(NSString *)scenarioId limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>scenarioId</Name>
+					<Abstract type="html">the scenario</Abstract>
+				</Parameter><Parameter>
+					<Name>limit</Name>
+					<Abstract type="html">the maximum number of result items</Abstract>
+				</Parameter><Parameter>
+					<Name>nameValues</Name>
+					<Abstract type="html">NameValues that should be included in the result</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/getItemRecommendations:limit:resultNameValues:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/getItemRecommendations:limit:resultNameValues:attributes:</TokenIdentifier>
+			<Abstract type="html">Gets item recommendations</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)getItemRecommendations:(NSString *)scenarioId limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues attributes:(NSArray *)attributes</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>scenarioId</Name>
+					<Abstract type="html">the scenario</Abstract>
+				</Parameter><Parameter>
+					<Name>limit</Name>
+					<Abstract type="html">the maximum number of result items</Abstract>
+				</Parameter><Parameter>
+					<Name>nameValues</Name>
+					<Abstract type="html">NameValues that should be included in the result</Abstract>
+				</Parameter><Parameter>
+					<Name>attributes</Name>
+					<Abstract type="html">any additional parameter to the request</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/getItemRecommendations:limit:resultNameValues:attributes:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/getItemRecommendationBulk:</TokenIdentifier>
+			<Abstract type="html">Gets item recommendations in a bulk way</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)getItemRecommendationBulk:(GravityRecommendationContext *)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>context</Name>
+					<Abstract type="html">the GravityRecommendationContext wich holds the scenarioId, numberLimit, nameValues and resultNameValues</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getItemRecommendationBulk:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/getItemRecommendationsBulk:</TokenIdentifier>
+			<Abstract type="html">Gets item recommendations in a bulk way</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)getItemRecommendationsBulk:(NSArray *)contexts</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>contexts</Name>
+					<Abstract type="html">the context array. A GravityRecommendationContext holds the scenarioId, numberLimit, nameValues and resultNameValues</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getItemRecommendationsBulk:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/searchItemsWithKeyword:limit:resultNameValues:</TokenIdentifier>
+			<Abstract type="html">Searches items with the given keyword</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)searchItemsWithKeyword:(NSString *)keyword limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyword</Name>
+					<Abstract type="html">keyword to search for</Abstract>
+				</Parameter><Parameter>
+					<Name>limit</Name>
+					<Abstract type="html">the maximum number of result items</Abstract>
+				</Parameter><Parameter>
+					<Name>nameValues</Name>
+					<Abstract type="html">NameValues that should be included in the result</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/searchItemsWithKeyword:limit:resultNameValues:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/searchItemsWithKeyword:limit:resultNameValues:orderBy:</TokenIdentifier>
+			<Abstract type="html">Searches items with the given keyword and orders result</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)searchItemsWithKeyword:(NSString *)keyword limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues orderBy:(GravityResultOrder)order</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>keyword</Name>
+					<Abstract type="html">keyword to search for</Abstract>
+				</Parameter><Parameter>
+					<Name>limit</Name>
+					<Abstract type="html">the maximum number of result items</Abstract>
+				</Parameter><Parameter>
+					<Name>nameValues</Name>
+					<Abstract type="html">NameValues that should be included in the result</Abstract>
+				</Parameter><Parameter>
+					<Name>order</Name>
+					<Abstract type="html">defines how to order results</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/addEvent:</TokenIdentifier>
+			<Abstract type="html">Adds a new event</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)addEvent:(GravityEvent *)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>event</Name>
+					<Abstract type="html">the event object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/addEvent:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/addEvents:</TokenIdentifier>
+			<Abstract type="html">Adds new events</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)addEvents:(NSArray *)events</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>events</Name>
+					<Abstract type="html">the event array</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">a reference the the request object</Abstract></ReturnValue>
+			<Anchor>//api/name/addEvents:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/addItem:</TokenIdentifier>
+			<Abstract type="html">Adds a new item to the RECO if the item has not been added yet.
+If the given item is already exist it will be updated.
+An item is already exist if there is an item with the same Id in the system.</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)addItem:(GravityItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">the item object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addItem:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/addItems:</TokenIdentifier>
+			<Abstract type="html">Adds items to the RECO if the item has not been added yet.
+If the given item is already exist it will be updated.
+An item is already exist if there is an item with the same Id in the system.</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)addItems:(NSArray *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">the item object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addItems:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/updateItem:</TokenIdentifier>
+			<Abstract type="html">Sets hidden value for an item.
+If an item is hidden it won&apos;t be recommended.
+If you want to delete an item you should hide it, beacuse item deletion is not supported.</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)updateItem:(GravityItem *)item</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">the item object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateItem:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/updateItems:</TokenIdentifier>
+			<Abstract type="html">Sets hidden value for items.
+If an item is hidden it won&apos;t be recommended.
+If you want to delete an item you should hide it, beacuse item deletion is not supported.</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)updateItems:(NSArray *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">the item object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateItems:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/addUser:</TokenIdentifier>
+			<Abstract type="html">Adds or updates an user.</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)addUser:(GravityUser *)user</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>users</Name>
+					<Abstract type="html">the users array</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addUser:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/addUsers:</TokenIdentifier>
+			<Abstract type="html">Adds or updates users.</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)addUsers:(NSArray *)users</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>users</Name>
+					<Abstract type="html">the users array</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addUsers:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/getAllScenarioInfo</TokenIdentifier>
+			<Abstract type="html">Gets all scenarioInfo</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)getAllScenarioInfo</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>user</Name>
+					<Abstract type="html">the user object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getAllScenarioInfo</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/trackLocation</TokenIdentifier>
+			<Abstract type="html">Gets user location info and stores it for later events</Abstract>
+			<DeclaredIn>GravityClient.h</DeclaredIn>
+			
+			<Declaration>- (void)trackLocation</Declaration>
+			
+			
+			<Anchor>//api/name/trackLocation</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityClient.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/sendRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityClient.m</DeclaredIn>
+			
+			<Declaration>- (GravityRequest *)sendRequest:(GravityRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/sendRequest:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/appendUserIdToRequest:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityClient.m</DeclaredIn>
+			
+			<Declaration>- (void)appendUserIdToRequest:(GravityRequest *)request</Declaration>
+			
+			
+			<Anchor>//api/name/appendUserIdToRequest:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/locationManager:didFailWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityClient.m</DeclaredIn>
+			
+			<Declaration>- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager:didFailWithError:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityClient/locationManager:didUpdateLocations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityClient.m</DeclaredIn>
+			
+			<Declaration>- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations</Declaration>
+			
+			
+			<Anchor>//api/name/locationManager:didUpdateLocations:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
 	</File>
 </Tokens>

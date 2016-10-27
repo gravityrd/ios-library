@@ -1,330 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/GravityEvent.html">
+	<File path="Classes/AppDelegate.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/GravityEvent</TokenIdentifier>
-			<Abstract type="html">An event that can be sent to a Gravity service</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/AppDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>
+            
 			
 			<NodeRef refid="2"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setId:</TokenIdentifier>
-			<Abstract type="html">Id of the event</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/setWindow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>
 			
-			<Declaration>@property NSNumber *Id</Declaration>
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
 			
 			
-			<Anchor>//api/name/Id</Anchor>
+			<Anchor>//api/name/window</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/Id</TokenIdentifier>
-			<Abstract type="html">Id of the event</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/window</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>
 			
-			<Declaration>@property NSNumber *Id</Declaration>
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
 			
 			
-			<Anchor>//api/name/Id</Anchor>
+			<Anchor>//api/name/window</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/Id</TokenIdentifier>
-			<Abstract type="html">Id of the event</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instp/AppDelegate/window</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.h</DeclaredIn>
 			
-			<Declaration>@property NSNumber *Id</Declaration>
+			<Declaration>@property (strong, nonatomic) UIWindow *window</Declaration>
 			
 			
-			<Anchor>//api/name/Id</Anchor>
+			<Anchor>//api/name/window</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setType:</TokenIdentifier>
-			<Abstract type="html">Type of event</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/application:didFinishLaunchingWithOptions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.m</DeclaredIn>
 			
-			<Declaration>@property NSString *type</Declaration>
+			<Declaration>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/application:didFinishLaunchingWithOptions:</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/type</TokenIdentifier>
-			<Abstract type="html">Type of event</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/applicationWillResignActive:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.m</DeclaredIn>
 			
-			<Declaration>@property NSString *type</Declaration>
+			<Declaration>- (void)applicationWillResignActive:(UIApplication *)application</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/applicationWillResignActive:</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/type</TokenIdentifier>
-			<Abstract type="html">Type of event</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/applicationDidEnterBackground:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.m</DeclaredIn>
 			
-			<Declaration>@property NSString *type</Declaration>
+			<Declaration>- (void)applicationDidEnterBackground:(UIApplication *)application</Declaration>
 			
 			
-			<Anchor>//api/name/type</Anchor>
+			<Anchor>//api/name/applicationDidEnterBackground:</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setRecommendationId:</TokenIdentifier>
-			<Abstract type="html">The relevant recommendation ID
-It is automatically set after a REC_CLICK event for each recommended items</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/applicationWillEnterForeground:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.m</DeclaredIn>
 			
-			<Declaration>@property NSString *recommendationId</Declaration>
+			<Declaration>- (void)applicationWillEnterForeground:(UIApplication *)application</Declaration>
 			
 			
-			<Anchor>//api/name/recommendationId</Anchor>
+			<Anchor>//api/name/applicationWillEnterForeground:</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/recommendationId</TokenIdentifier>
-			<Abstract type="html">The relevant recommendation ID
-It is automatically set after a REC_CLICK event for each recommended items</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/applicationDidBecomeActive:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.m</DeclaredIn>
 			
-			<Declaration>@property NSString *recommendationId</Declaration>
+			<Declaration>- (void)applicationDidBecomeActive:(UIApplication *)application</Declaration>
 			
 			
-			<Anchor>//api/name/recommendationId</Anchor>
+			<Anchor>//api/name/applicationDidBecomeActive:</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/recommendationId</TokenIdentifier>
-			<Abstract type="html">The relevant recommendation ID
-It is automatically set after a REC_CLICK event for each recommended items</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
+			<TokenIdentifier>//apple_ref/occ/instm/AppDelegate/applicationWillTerminate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AppDelegate.m</DeclaredIn>
 			
-			<Declaration>@property NSString *recommendationId</Declaration>
+			<Declaration>- (void)applicationWillTerminate:(UIApplication *)application</Declaration>
 			
 			
-			<Anchor>//api/name/recommendationId</Anchor>
+			<Anchor>//api/name/applicationWillTerminate:</Anchor>
             <NodeRef refid="2"/>
 		</Token>
 		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setItemId:</TokenIdentifier>
-			<Abstract type="html">The relevant item ID</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *itemId</Declaration>
-			
-			
-			<Anchor>//api/name/itemId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/itemId</TokenIdentifier>
-			<Abstract type="html">The relevant item ID</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *itemId</Declaration>
-			
-			
-			<Anchor>//api/name/itemId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/itemId</TokenIdentifier>
-			<Abstract type="html">The relevant item ID</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *itemId</Declaration>
-			
-			
-			<Anchor>//api/name/itemId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setUserId:</TokenIdentifier>
-			<Abstract type="html">The ID of the user</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *userId</Declaration>
-			
-			
-			<Anchor>//api/name/userId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/userId</TokenIdentifier>
-			<Abstract type="html">The ID of the user</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *userId</Declaration>
-			
-			
-			<Anchor>//api/name/userId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/userId</TokenIdentifier>
-			<Abstract type="html">The ID of the user</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *userId</Declaration>
-			
-			
-			<Anchor>//api/name/userId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setCookieId:</TokenIdentifier>
-			<Abstract type="html">The cookie of the user</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *cookieId</Declaration>
-			
-			
-			<Anchor>//api/name/cookieId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/cookieId</TokenIdentifier>
-			<Abstract type="html">The cookie of the user</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *cookieId</Declaration>
-			
-			
-			<Anchor>//api/name/cookieId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/cookieId</TokenIdentifier>
-			<Abstract type="html">The cookie of the user</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSString *cookieId</Declaration>
-			
-			
-			<Anchor>//api/name/cookieId</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setTime:</TokenIdentifier>
-			<Abstract type="html">The time when the event occured</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSDate *time</Declaration>
-			
-			
-			<Anchor>//api/name/time</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/time</TokenIdentifier>
-			<Abstract type="html">The time when the event occured</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSDate *time</Declaration>
-			
-			
-			<Anchor>//api/name/time</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/time</TokenIdentifier>
-			<Abstract type="html">The time when the event occured</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSDate *time</Declaration>
-			
-			
-			<Anchor>//api/name/time</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/setNameValues:</TokenIdentifier>
-			<Abstract type="html">Extra GravityNameValue parameters</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSMutableArray *nameValues</Declaration>
-			
-			
-			<Anchor>//api/name/nameValues</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/nameValues</TokenIdentifier>
-			<Abstract type="html">Extra GravityNameValue parameters</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSMutableArray *nameValues</Declaration>
-			
-			
-			<Anchor>//api/name/nameValues</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instp/GravityEvent/nameValues</TokenIdentifier>
-			<Abstract type="html">Extra GravityNameValue parameters</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>@property NSMutableArray *nameValues</Declaration>
-			
-			
-			<Anchor>//api/name/nameValues</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/dictionary</TokenIdentifier>
-			<Abstract type="html">Returns GravityEvent as a dictionary</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>- (NSDictionary *)dictionary</Declaration>
-			
-			<ReturnValue><Abstract type="html">a dictionary representing the event</Abstract></ReturnValue>
-			<Anchor>//api/name/dictionary</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/GravityEvent/JSON</TokenIdentifier>
-			<Abstract type="html">Returns GravityEvent as JSON data</Abstract>
-			<DeclaredIn>GravityEvent.h</DeclaredIn>			
-			
-			<Declaration>- (NSData *)JSON</Declaration>
-			
-			<ReturnValue><Abstract type="html">the JSON data representing the event</Abstract></ReturnValue>
-			<Anchor>//api/name/JSON</Anchor>
-            <NodeRef refid="2"/>
-		</Token>
-		
+        
+        
 	</File>
 </Tokens>

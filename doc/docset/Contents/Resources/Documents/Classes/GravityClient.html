@@ -1,206 +1,174 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
-		<title>GravityClient Class Reference</title>
-		<meta id="xcode-display" name="xcode-display" content="render"/>
-		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
-		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
-		<meta name="generator" content="appledoc 2.1 (build 858)" />
-	</head>
-	<body>
-		<header id="top_header">
-			<div id="library" class="hideInXcode">
-				<h1><a id="libraryTitle" href="../index.html">GravityClient </a></h1>
-				<a id="developerHome" href="../index.html">Gravity R&amp;D</a>
-			</div>
+<head>
+	<meta charset="utf-8">
+
+	<title>GravityClient Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
 			
-			<div id="title" role="banner">
-				<h1 class="hideInXcode">GravityClient Class Reference</h1>
-			</div>
-			<ul id="headerButtons" role="toolbar">
-				<li id="toc_button">
-					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
-				</li>
-				<li id="jumpto_button" role="navigation">
-					<select id="jumpTo">
+			<h1 id="library-title">
+				<a href="../index.html">GravityClient </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Gravity R&amp;D</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
 	<option value="overview">Overview</option>
 	
-	
+
 	
 	
 	<option value="tasks">Tasks</option>
 	
 	
+
 	
 	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/baseURL">baseURL</option>
+		
+		<option value="//api/name/cookieId">cookieId</option>
+		
+		<option value="//api/name/delegate">delegate</option>
+		
+		<option value="//api/name/lastRecommandation">lastRecommandation</option>
+		
+		<option value="//api/name/location">location</option>
+		
+		<option value="//api/name/password">password</option>
+		
+		<option value="//api/name/recommendedItems">recommendedItems</option>
+		
+		<option value="//api/name/userId">userId</option>
+		
+		<option value="//api/name/username">username</option>
+		
+	</optgroup>
 	
-	<option value="properties">Properties</option>
+
 	
-	<option value="//api/name/baseURL">&nbsp;&nbsp;&nbsp;&nbsp;baseURL</option>
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/escapeString:">+ escapeString:</option>
+		
+	</optgroup>
 	
-	<option value="//api/name/cookieId">&nbsp;&nbsp;&nbsp;&nbsp;cookieId</option>
+
 	
-	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
-	
-	<option value="//api/name/lastRecommandation">&nbsp;&nbsp;&nbsp;&nbsp;lastRecommandation</option>
-	
-	<option value="//api/name/location">&nbsp;&nbsp;&nbsp;&nbsp;location</option>
-	
-	<option value="//api/name/password">&nbsp;&nbsp;&nbsp;&nbsp;password</option>
-	
-	<option value="//api/name/recommendedItems">&nbsp;&nbsp;&nbsp;&nbsp;recommendedItems</option>
-	
-	<option value="//api/name/userId">&nbsp;&nbsp;&nbsp;&nbsp;userId</option>
-	
-	<option value="//api/name/username">&nbsp;&nbsp;&nbsp;&nbsp;username</option>
-	
-	
-	
-	
-	<option value="class_methods">Class Methods</option>
-	
-	<option value="//api/name/escapeString:">&nbsp;&nbsp;&nbsp;&nbsp;+ escapeString:</option>
-	
-	
-	
-	
-	<option value="instance_methods">Instance Methods</option>
-	
-	<option value="//api/name/addEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- addEvent:</option>
-	
-	<option value="//api/name/addEventForItem:type:">&nbsp;&nbsp;&nbsp;&nbsp;- addEventForItem:type:</option>
-	
-	<option value="//api/name/initWithURL:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithURL:</option>
-	
-	<option value="//api/name/initWithURL:username:password:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithURL:username:password:</option>
-	
-	<option value="//api/name/recommendItemsForScenario:limit:resultNameValues:">&nbsp;&nbsp;&nbsp;&nbsp;- recommendItemsForScenario:limit:resultNameValues:</option>
-	
-	<option value="//api/name/recommendItemsForScenario:limit:resultNameValues:attributes:">&nbsp;&nbsp;&nbsp;&nbsp;- recommendItemsForScenario:limit:resultNameValues:attributes:</option>
-	
-	<option value="//api/name/sayHelloTo:">&nbsp;&nbsp;&nbsp;&nbsp;- sayHelloTo:</option>
-	
-	<option value="//api/name/searchItemsWithKeyword:limit:resultNameValues:">&nbsp;&nbsp;&nbsp;&nbsp;- searchItemsWithKeyword:limit:resultNameValues:</option>
-	
-	<option value="//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:">&nbsp;&nbsp;&nbsp;&nbsp;- searchItemsWithKeyword:limit:resultNameValues:orderBy:</option>
-	
-	<option value="//api/name/trackLocation">&nbsp;&nbsp;&nbsp;&nbsp;- trackLocation</option>
-	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/addEvent:">- addEvent:</option>
+		
+		<option value="//api/name/addEvents:">- addEvents:</option>
+		
+		<option value="//api/name/addItem:">- addItem:</option>
+		
+		<option value="//api/name/addItems:">- addItems:</option>
+		
+		<option value="//api/name/addUser:">- addUser:</option>
+		
+		<option value="//api/name/addUsers:">- addUsers:</option>
+		
+		<option value="//api/name/appendUserIdToRequest:">- appendUserIdToRequest:</option>
+		
+		<option value="//api/name/getAllScenarioInfo">- getAllScenarioInfo</option>
+		
+		<option value="//api/name/getItemRecommendationBulk:">- getItemRecommendationBulk:</option>
+		
+		<option value="//api/name/getItemRecommendations:limit:resultNameValues:">- getItemRecommendations:limit:resultNameValues:</option>
+		
+		<option value="//api/name/getItemRecommendations:limit:resultNameValues:attributes:">- getItemRecommendations:limit:resultNameValues:attributes:</option>
+		
+		<option value="//api/name/getItemRecommendationsBulk:">- getItemRecommendationsBulk:</option>
+		
+		<option value="//api/name/init">- init</option>
+		
+		<option value="//api/name/initWithURL:">- initWithURL:</option>
+		
+		<option value="//api/name/initWithURL:username:password:">- initWithURL:username:password:</option>
+		
+		<option value="//api/name/locationManager:didFailWithError:">- locationManager:didFailWithError:</option>
+		
+		<option value="//api/name/locationManager:didUpdateLocations:">- locationManager:didUpdateLocations:</option>
+		
+		<option value="//api/name/sayHelloTo:">- sayHelloTo:</option>
+		
+		<option value="//api/name/searchItemsWithKeyword:limit:resultNameValues:">- searchItemsWithKeyword:limit:resultNameValues:</option>
+		
+		<option value="//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:">- searchItemsWithKeyword:limit:resultNameValues:orderBy:</option>
+		
+		<option value="//api/name/sendRequest:">- sendRequest:</option>
+		
+		<option value="//api/name/trackLocation">- trackLocation</option>
+		
+		<option value="//api/name/updateItem:">- updateItem:</option>
+		
+		<option value="//api/name/updateItems:">- updateItems:</option>
+		
+	</optgroup>
 	
 	
 </select>
-				</li>
-			</ul>
-		</header>
-		<nav id="tocContainer" class="isShowingTOC">
-			<ul id="toc" role="tree">
-				
-<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
 
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">GravityClient Class Reference</h1>
 
-
-
-<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
-	
-</ul></li>
-
-
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/baseURL">baseURL</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cookieId">cookieId</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastRecommandation">lastRecommandation</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/location">location</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/password">password</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recommendedItems">recommendedItems</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userId">userId</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/username">username</a></span></li>
-	
-</ul></li>
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/escapeString:">escapeString:</a></span></li>
-	
-</ul></li>
-
-
-
-<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addEvent:">addEvent:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addEventForItem:type:">addEventForItem:type:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithURL:">initWithURL:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithURL:username:password:">initWithURL:username:password:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recommendItemsForScenario:limit:resultNameValues:">recommendItemsForScenario:limit:resultNameValues:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recommendItemsForScenario:limit:resultNameValues:attributes:">recommendItemsForScenario:limit:resultNameValues:attributes:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sayHelloTo:">sayHelloTo:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchItemsWithKeyword:limit:resultNameValues:">searchItemsWithKeyword:limit:resultNameValues:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:">searchItemsWithKeyword:limit:resultNameValues:orderBy:</a></span></li>
-	
-	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/trackLocation">trackLocation</a></span></li>
-	
-</ul></li>
-
-
-			</ul>
-		</nav>
-		<article>
-			<div id="contents" class="isShowingTOC" role="main">
-				<a title="GravityClient Class Reference" name="top"></a>
-				<div class="main-navigation navigation-top">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="header">
-					<div class="section-header">
-						<h1 class="title title-header">GravityClient Class Reference</h1>
-					</div>		
-				</div>
-				<div id="container">	
 					
 					<div class="section section-specification"><table cellspacing="0"><tbody>
 						<tr>
-	<td class="specification-title">Inherits from</td>
-	<td class="specification-value">NSObject</td>
+	<th>Inherits from</th>
+	<td>NSObject</td>
 </tr><tr>
-	<td class="specification-title">Conforms to</td>
-	<td class="specification-value">CLLocationManagerDelegate</td>
+	<th>Conforms to</th>
+	<td>CLLocationManagerDelegate</td>
 </tr><tr>
-	<td class="specification-title">Declared in</td>
-	<td class="specification-value">GravityClient.h<br />GravityClient.m</td>
+	<th>Declared in</th>
+	<td>GravityClient.h<br />GravityClient.m</td>
 </tr>
 						</tbody></table></div>
 					
-					
-					
+
+                    
 					
 					<div class="section section-overview">
 						<a title="Overview" name="overview"></a>
@@ -209,1321 +177,1827 @@
 					</div>
 					
 					
-					
+
 					
 					
 					<div class="section section-tasks">
 						<a title="Tasks" name="tasks"></a>
-						<h2 class="subtitle subtitle-tasks">Tasks</h2>
-						
-						
-						
 						
 
-						<ul class="task-list">
-							<li>
-	<span class="tooltip">
-		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/baseURL">&nbsp;&nbsp;baseURL</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/username">&nbsp;&nbsp;username</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/password">&nbsp;&nbsp;password</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/userId">&nbsp;&nbsp;userId</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/cookieId">&nbsp;&nbsp;cookieId</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/location">&nbsp;&nbsp;location</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/lastRecommandation">&nbsp;&nbsp;lastRecommandation</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/recommendedItems">&nbsp;&nbsp;recommendedItems</a></code>
-	</span>
-	<span class="task-item-suffix">property</span>
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/escapeString:">+&nbsp;escapeString:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/initWithURL:">&ndash;&nbsp;initWithURL:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/initWithURL:username:password:">&ndash;&nbsp;initWithURL:username:password:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/sayHelloTo:">&ndash;&nbsp;sayHelloTo:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/recommendItemsForScenario:limit:resultNameValues:">&ndash;&nbsp;recommendItemsForScenario:limit:resultNameValues:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/recommendItemsForScenario:limit:resultNameValues:attributes:">&ndash;&nbsp;recommendItemsForScenario:limit:resultNameValues:attributes:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/searchItemsWithKeyword:limit:resultNameValues:">&ndash;&nbsp;searchItemsWithKeyword:limit:resultNameValues:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:">&ndash;&nbsp;searchItemsWithKeyword:limit:resultNameValues:orderBy:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/addEvent:">&ndash;&nbsp;addEvent:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/addEventForItem:type:">&ndash;&nbsp;addEventForItem:type:</a></code>
-	</span>
-	
-	
-</li><li>
-	<span class="tooltip">
-		<code><a href="#//api/name/trackLocation">&ndash;&nbsp;trackLocation</a></code>
-	</span>
-	
-	
-</li>
-						</ul>
 						
-					</div>
-					
-					
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Properties" name="properties"></a>
-						<h2 class="subtitle subtitle-methods">Properties</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/baseURL" title="baseURL"></a>
-	<h3 class="subsubtitle method-title">baseURL</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Base URL of the REST service</p>
-	</div>		
-	
-    
+						<h2 class="task-title">Other Methods</h2>
 
-	<div class="method-subsection method-declaration"><code>@property NSString *baseURL</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Base URL of the REST service</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/cookieId" title="cookieId"></a>
-	<h3 class="subsubtitle method-title">cookieId</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>CookieId of the client
-This is automatically generated and unique for every device
-This will be automatically included in the request parameters</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property NSString *cookieId</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>CookieId of the client
-This is automatically generated and unique for every device
-This will be automatically included in the request parameters</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
+						<div class="task-list">
+							<div class="section-method">
 	<a name="//api/name/delegate" title="delegate"></a>
-	<h3 class="subsubtitle method-title">delegate</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Delegate of GravityClient</p>
-	</div>		
-	
-    
+	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+</h3>
 
-	<div class="method-subsection method-declaration"><code>@property id&lt;GravityClientDelegate&gt; delegate</code></div>
+	<div class="method-info">
+		<div class="pointy-thing"></div>
 
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Delegate of GravityClient</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/lastRecommandation" title="lastRecommandation"></a>
-	<h3 class="subsubtitle method-title">lastRecommandation</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>The last recommendation received by the client</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property GravityItemRecommendation *lastRecommandation</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>The last recommendation received by the client</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/location" title="location"></a>
-	<h3 class="subsubtitle method-title">location</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Location of the client
-This will be automatically included in the events sent to the server</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property CLLocation *location</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Location of the client
-This will be automatically included in the events sent to the server</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/password" title="password"></a>
-	<h3 class="subsubtitle method-title">password</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Password of the given <a href="#//api/name/username">username</a></p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property NSString *password</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Password of the given <a href="#//api/name/username">username</a></p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/recommendedItems" title="recommendedItems"></a>
-	<h3 class="subsubtitle method-title">recommendedItems</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>List of items that have already been recommended</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property NSMutableDictionary *recommendedItems</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>List of items that have already been recommended</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/userId" title="userId"></a>
-	<h3 class="subsubtitle method-title">userId</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>UserId of the authenticated client
-This will be automatically included in the request parameters</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property NSString *userId</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>UserId of the authenticated client
-This will be automatically included in the request parameters</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/username" title="username"></a>
-	<h3 class="subsubtitle method-title">username</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Username to access the service</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>@property NSString *username</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Username to access the service</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Class Methods" name="class_methods"></a>
-						<h2 class="subtitle subtitle-methods">Class Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/escapeString:" title="escapeString:"></a>
-	<h3 class="subsubtitle method-title">escapeString:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Escapes an URL string with percent signes</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>+ (NSString *)escapeString:(NSString *)<em>aString</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>aString</em></dt>
-			<dd><p>the string to be escaped</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>the escaped string</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Escapes an URL string with percent signes</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-					
-					<div class="section section-methods">
-						<a title="Instance Methods" name="instance_methods"></a>
-						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
-						
-						<div class="section-method">
-	<a name="//api/name/addEvent:" title="addEvent:"></a>
-	<h3 class="subsubtitle method-title">addEvent:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Adds a new user event</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)addEvent:(GravityEvent *)<em>event</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>event</em></dt>
-			<dd><p>the event object</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Adds a new user event</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/addEventForItem:type:" title="addEventForItem:type:"></a>
-	<h3 class="subsubtitle method-title">addEventForItem:type:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Adds a new user event</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)addEventForItem:(NSString *)<em>itemId</em> type:(NSString *)<em>type</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>itemId</em></dt>
-			<dd><p>the itemId related to the event</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>type</em></dt>
-			<dd><p>type of the event</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Adds a new user event</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/initWithURL:" title="initWithURL:"></a>
-	<h3 class="subsubtitle method-title">initWithURL:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Initalizes a GravityClient connection with an URL</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (id)initWithURL:(NSString *)<em>url</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>url</em></dt>
-			<dd><p>the url of the service</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>an initializes GravityClient object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Initalizes a GravityClient connection with an URL</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/initWithURL:username:password:" title="initWithURL:username:password:"></a>
-	<h3 class="subsubtitle method-title">initWithURL:username:password:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Initalizes a GravityClient connection with an URL and credentials</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (id)initWithURL:(NSString *)<em>url</em> username:(NSString *)<em>username</em> password:(NSString *)<em>password</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>url</em></dt>
-			<dd><p>the url of the service</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>username</em></dt>
-			<dd><p><a href="#//api/name/username">username</a> to access the service</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>password</em></dt>
-			<dd><p>the <a href="#//api/name/password">password</a> of the <a href="#//api/name/username">username</a></p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>an initializes GravityClient object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Initalizes a GravityClient connection with an URL and credentials</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/recommendItemsForScenario:limit:resultNameValues:" title="recommendItemsForScenario:limit:resultNameValues:"></a>
-	<h3 class="subsubtitle method-title">recommendItemsForScenario:limit:resultNameValues:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets item recommendations</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)recommendItemsForScenario:(NSString *)<em>scenarioId</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>scenarioId</em></dt>
-			<dd><p>the scenario</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>limit</em></dt>
-			<dd><p>the maximum number of result items</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>nameValues</em></dt>
-			<dd><p>NameValues that should be included in the result</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets item recommendations</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/recommendItemsForScenario:limit:resultNameValues:attributes:" title="recommendItemsForScenario:limit:resultNameValues:attributes:"></a>
-	<h3 class="subsubtitle method-title">recommendItemsForScenario:limit:resultNameValues:attributes:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets item recommendation</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)recommendItemsForScenario:(NSString *)<em>scenarioId</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em> attributes:(NSArray *)<em>attributes</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>scenarioId</em></dt>
-			<dd><p>the scenario</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>limit</em></dt>
-			<dd><p>the maximum number of result items</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>nameValues</em></dt>
-			<dd><p>NameValues that should be included in the result</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>attributes</em></dt>
-			<dd><p>any additional parameter to the request</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets item recommendation</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/sayHelloTo:" title="sayHelloTo:"></a>
-	<h3 class="subsubtitle method-title">sayHelloTo:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Calls a test REST API call which says hello to the given name</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)sayHelloTo:(NSString *)<em>name</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>name</em></dt>
-			<dd><p>the name to say hello to</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Calls a test REST API call which says hello to the given name</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/searchItemsWithKeyword:limit:resultNameValues:" title="searchItemsWithKeyword:limit:resultNameValues:"></a>
-	<h3 class="subsubtitle method-title">searchItemsWithKeyword:limit:resultNameValues:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Searches items with the given keyword</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)searchItemsWithKeyword:(NSString *)<em>keyword</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>keyword</em></dt>
-			<dd><p>keyword to search for</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>limit</em></dt>
-			<dd><p>the maximum number of result items</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>nameValues</em></dt>
-			<dd><p>NameValues that should be included in the result</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Searches items with the given keyword</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:" title="searchItemsWithKeyword:limit:resultNameValues:orderBy:"></a>
-	<h3 class="subsubtitle method-title">searchItemsWithKeyword:limit:resultNameValues:orderBy:</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Searches items with the given keyword and orders result</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (GravityRequest *)searchItemsWithKeyword:(NSString *)<em>keyword</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em> orderBy:(GravityResultOrder)<em>order</em></code></div>
-
-    
-	
-	<div class="method-subsection arguments-section parameters">
-		<h4 class="method-subtitle parameter-title">Parameters</h4>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>keyword</em></dt>
-			<dd><p>keyword to search for</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>limit</em></dt>
-			<dd><p>the maximum number of result items</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>nameValues</em></dt>
-			<dd><p>NameValues that should be included in the result</p></dd>
-		</dl>
-		
-		<dl class="argument-def parameter-def">
-			<dt><em>order</em></dt>
-			<dd><p>defines how to order results</p></dd>
-		</dl>
-		
-	</div>
-	
-	
-	
-	<div class="method-subsection return">
-		<h4 class="method-subtitle parameter-title">Return Value</h4>
-		<p>a reference the the request object</p>
-	</div>
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Searches items with the given keyword and orders result</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-						<div class="section-method">
-	<a name="//api/name/trackLocation" title="trackLocation"></a>
-	<h3 class="subsubtitle method-title">trackLocation</h3>
-	
-	
-	
-	<div class="method-subsection brief-description">
-		<p>Gets user <a href="#//api/name/location">location</a> info and stores it for later events</p>
-	</div>		
-	
-    
-
-	<div class="method-subsection method-declaration"><code>- (void)trackLocation</code></div>
-
-    
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection discussion-section">
-		<h4 class="method-subtitle">Discussion</h4>
-		<p>Gets user <a href="#//api/name/location">location</a> info and stores it for later events</p>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="method-subsection declared-in-section">
-		<h4 class="method-subtitle">Declared In</h4>
-		<code class="declared-in-ref">GravityClient.h</code><br />
-	</div>				
-	
-	
-</div>
-						
-					</div>
-					
-					
-				</div>
-				<div class="main-navigation navigation-bottom">
-					<ul>
-	<li><a href="../index.html">Index</a></li>
-	<li><a href="../hierarchy.html">Hierarchy</a></li>
-</ul>
-				</div>
-				<div id="footer">
-					<hr />
-					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2014 Gravity R&amp;D. All rights reserved. (Last updated: 2014-01-13)</span><br />
-						
-						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 858)</a>.</span></p>
-						
-					</div>
-				</div>
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Delegate of GravityClient</p>
 			</div>
-		</article>
-		<script type="text/javascript">
-			function jumpToChange()
-			{
-				window.location.hash = this.options[this.selectedIndex].value;
-			}
 			
-			function toggleTOC()
-			{
-				var contents = document.getElementById('contents');
-				var tocContainer = document.getElementById('tocContainer');
+		    
+
+			<div class="method-subsection method-declaration"><code>@property id&lt;GravityClientDelegate&gt; delegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Delegate of GravityClient</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/baseURL" title="baseURL"></a>
+	<h3 class="method-title"><code><a href="#//api/name/baseURL">&nbsp;&nbsp;baseURL</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Base URL of the REST service</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSString *baseURL</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Base URL of the REST service</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/username" title="username"></a>
+	<h3 class="method-title"><code><a href="#//api/name/username">&nbsp;&nbsp;username</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Username to access the service</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSString *username</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Username to access the service</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/password" title="password"></a>
+	<h3 class="method-title"><code><a href="#//api/name/password">&nbsp;&nbsp;password</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Password of the given <a href="#//api/name/username">username</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSString *password</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Password of the given <a href="#//api/name/username">username</a></p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/userId" title="userId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/userId">&nbsp;&nbsp;userId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>UserId of the authenticated client
+This will be automatically included in the request parameters</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSString *userId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>UserId of the authenticated client
+This will be automatically included in the request parameters</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cookieId" title="cookieId"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cookieId">&nbsp;&nbsp;cookieId</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>CookieId of the client
+This is automatically generated and unique for every device
+This will be automatically included in the request parameters</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSString *cookieId</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>CookieId of the client
+This is automatically generated and unique for every device
+This will be automatically included in the request parameters</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/lastRecommandation" title="lastRecommandation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/lastRecommandation">&nbsp;&nbsp;lastRecommandation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The last recommendation received by the client</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property GravityItemRecommendation *lastRecommandation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The last recommendation received by the client</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/recommendedItems" title="recommendedItems"></a>
+	<h3 class="method-title"><code><a href="#//api/name/recommendedItems">&nbsp;&nbsp;recommendedItems</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>List of items that have already been recommended</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property NSMutableDictionary *recommendedItems</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>List of items that have already been recommended</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/location" title="location"></a>
+	<h3 class="method-title"><code><a href="#//api/name/location">&nbsp;&nbsp;location</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Location of the client
+This will be automatically included in the events sent to the server</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property CLLocation *location</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Location of the client
+This will be automatically included in the events sent to the server</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/escapeString:" title="escapeString:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/escapeString:">+&nbsp;escapeString:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Escapes an URL string with percent signes</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)escapeString:(NSString *)<em>aString</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
 				
-				if (this.getAttribute('class') == 'open')
-				{
-					this.setAttribute('class', '');
-					contents.setAttribute('class', '');
-					tocContainer.setAttribute('class', '');
+					<tr>
+						<th scope="row" class="argument-name"><code>aString</code></th>
+						<td><p>the string to be escaped</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>the escaped string</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Escapes an URL string with percent signes</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithURL:" title="initWithURL:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithURL:">&ndash;&nbsp;initWithURL:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initalizes a GravityClient connection with an URL</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithURL:(NSString *)<em>url</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>url</code></th>
+						<td><p>the url of the service</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>an initializes GravityClient object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Initalizes a GravityClient connection with an URL</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithURL:username:password:" title="initWithURL:username:password:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithURL:username:password:">&ndash;&nbsp;initWithURL:username:password:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Initalizes a GravityClient connection with an URL and credentials</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (id)initWithURL:(NSString *)<em>url</em> username:(NSString *)<em>username</em> password:(NSString *)<em>password</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>url</code></th>
+						<td><p>the url of the service</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>username</code></th>
+						<td><p><a href="#//api/name/username">username</a> to access the service</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>password</code></th>
+						<td><p>the <a href="#//api/name/password">password</a> of the <a href="#//api/name/username">username</a></p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>an initializes GravityClient object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Initalizes a GravityClient connection with an URL and credentials</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sayHelloTo:" title="sayHelloTo:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sayHelloTo:">&ndash;&nbsp;sayHelloTo:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Calls a test REST API call which says hello to the given name</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)sayHelloTo:(NSString *)<em>name</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>name</code></th>
+						<td><p>the name to say hello to</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Calls a test REST API call which says hello to the given name</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getItemRecommendations:limit:resultNameValues:" title="getItemRecommendations:limit:resultNameValues:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getItemRecommendations:limit:resultNameValues:">&ndash;&nbsp;getItemRecommendations:limit:resultNameValues:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets item recommendations</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)getItemRecommendations:(NSString *)<em>scenarioId</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scenarioId</code></th>
+						<td><p>the scenario</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>the maximum number of result items</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>nameValues</code></th>
+						<td><p>NameValues that should be included in the result</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets item recommendations</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getItemRecommendations:limit:resultNameValues:attributes:" title="getItemRecommendations:limit:resultNameValues:attributes:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getItemRecommendations:limit:resultNameValues:attributes:">&ndash;&nbsp;getItemRecommendations:limit:resultNameValues:attributes:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets item recommendations</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)getItemRecommendations:(NSString *)<em>scenarioId</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em> attributes:(NSArray *)<em>attributes</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>scenarioId</code></th>
+						<td><p>the scenario</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>the maximum number of result items</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>nameValues</code></th>
+						<td><p>NameValues that should be included in the result</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>attributes</code></th>
+						<td><p>any additional parameter to the request</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets item recommendations</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getItemRecommendationBulk:" title="getItemRecommendationBulk:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getItemRecommendationBulk:">&ndash;&nbsp;getItemRecommendationBulk:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets item recommendations in a bulk way</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)getItemRecommendationBulk:(GravityRecommendationContext *)<em>context</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>context</code></th>
+						<td><p>the <a href="../Classes/GravityRecommendationContext.html">GravityRecommendationContext</a> wich holds the scenarioId, numberLimit, nameValues and resultNameValues</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets item recommendations in a bulk way</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getItemRecommendationsBulk:" title="getItemRecommendationsBulk:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getItemRecommendationsBulk:">&ndash;&nbsp;getItemRecommendationsBulk:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets item recommendations in a bulk way</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)getItemRecommendationsBulk:(NSArray *)<em>contexts</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>contexts</code></th>
+						<td><p>the context array. A <a href="../Classes/GravityRecommendationContext.html">GravityRecommendationContext</a> holds the scenarioId, numberLimit, nameValues and resultNameValues</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets item recommendations in a bulk way</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/searchItemsWithKeyword:limit:resultNameValues:" title="searchItemsWithKeyword:limit:resultNameValues:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/searchItemsWithKeyword:limit:resultNameValues:">&ndash;&nbsp;searchItemsWithKeyword:limit:resultNameValues:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Searches items with the given keyword</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)searchItemsWithKeyword:(NSString *)<em>keyword</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keyword</code></th>
+						<td><p>keyword to search for</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>the maximum number of result items</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>nameValues</code></th>
+						<td><p>NameValues that should be included in the result</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Searches items with the given keyword</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:" title="searchItemsWithKeyword:limit:resultNameValues:orderBy:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/searchItemsWithKeyword:limit:resultNameValues:orderBy:">&ndash;&nbsp;searchItemsWithKeyword:limit:resultNameValues:orderBy:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Searches items with the given keyword and orders result</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)searchItemsWithKeyword:(NSString *)<em>keyword</em> limit:(NSUInteger)<em>limit</em> resultNameValues:(NSArray *)<em>nameValues</em> orderBy:(GravityResultOrder)<em>order</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>keyword</code></th>
+						<td><p>keyword to search for</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>limit</code></th>
+						<td><p>the maximum number of result items</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>nameValues</code></th>
+						<td><p>NameValues that should be included in the result</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>order</code></th>
+						<td><p>defines how to order results</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Searches items with the given keyword and orders result</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addEvent:" title="addEvent:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addEvent:">&ndash;&nbsp;addEvent:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds a new event</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)addEvent:(GravityEvent *)<em>event</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>event</code></th>
+						<td><p>the event object</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds a new event</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addEvents:" title="addEvents:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addEvents:">&ndash;&nbsp;addEvents:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds new events</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)addEvents:(NSArray *)<em>events</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>events</code></th>
+						<td><p>the event array</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+			<div class="method-subsection return">
+				<h4 class="method-subtitle parameter-title">Return Value</h4>
+				<p>a reference the the request object</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds new events</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addItem:" title="addItem:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addItem:">&ndash;&nbsp;addItem:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds a new item to the RECO if the item has not been added yet.
+If the given item is already exist it will be updated.
+An item is already exist if there is an item with the same Id in the system.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)addItem:(GravityItem *)<em>item</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>item</code></th>
+						<td><p>the item object</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds a new item to the RECO if the item has not been added yet.
+If the given item is already exist it will be updated.
+An item is already exist if there is an item with the same Id in the system.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addItems:" title="addItems:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addItems:">&ndash;&nbsp;addItems:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds items to the RECO if the item has not been added yet.
+If the given item is already exist it will be updated.
+An item is already exist if there is an item with the same Id in the system.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)addItems:(NSArray *)<em>item</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>item</code></th>
+						<td><p>the item object</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds items to the RECO if the item has not been added yet.
+If the given item is already exist it will be updated.
+An item is already exist if there is an item with the same Id in the system.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updateItem:" title="updateItem:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateItem:">&ndash;&nbsp;updateItem:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets hidden value for an item.
+If an item is hidden it won&rsquo;t be recommended.
+If you want to delete an item you should hide it, beacuse item deletion is not supported.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)updateItem:(GravityItem *)<em>item</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>item</code></th>
+						<td><p>the item object</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sets hidden value for an item.
+If an item is hidden it won&rsquo;t be recommended.
+If you want to delete an item you should hide it, beacuse item deletion is not supported.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/updateItems:" title="updateItems:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/updateItems:">&ndash;&nbsp;updateItems:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets hidden value for items.
+If an item is hidden it won&rsquo;t be recommended.
+If you want to delete an item you should hide it, beacuse item deletion is not supported.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)updateItems:(NSArray *)<em>items</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>item</code></th>
+						<td><p>the item object</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Sets hidden value for items.
+If an item is hidden it won&rsquo;t be recommended.
+If you want to delete an item you should hide it, beacuse item deletion is not supported.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addUser:" title="addUser:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addUser:">&ndash;&nbsp;addUser:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds or updates an user.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)addUser:(GravityUser *)<em>user</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>users</code></th>
+						<td><p>the users array</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds or updates an user.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/addUsers:" title="addUsers:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/addUsers:">&ndash;&nbsp;addUsers:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Adds or updates users.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)addUsers:(NSArray *)<em>users</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>users</code></th>
+						<td><p>the users array</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Adds or updates users.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/getAllScenarioInfo" title="getAllScenarioInfo"></a>
+	<h3 class="method-title"><code><a href="#//api/name/getAllScenarioInfo">&ndash;&nbsp;getAllScenarioInfo</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets all scenarioInfo</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)getAllScenarioInfo</code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>user</code></th>
+						<td><p>the user object</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets all scenarioInfo</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackLocation" title="trackLocation"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackLocation">&ndash;&nbsp;trackLocation</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Gets user <a href="#//api/name/location">location</a> info and stores it for later events</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)trackLocation</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Gets user <a href="#//api/name/location">location</a> info and stores it for later events</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">GravityClient.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="method-title"><code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/sendRequest:" title="sendRequest:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/sendRequest:">&ndash;&nbsp;sendRequest:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (GravityRequest *)sendRequest:(GravityRequest *)<em>request</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/appendUserIdToRequest:" title="appendUserIdToRequest:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/appendUserIdToRequest:">&ndash;&nbsp;appendUserIdToRequest:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)appendUserIdToRequest:(GravityRequest *)<em>request</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/locationManager:didFailWithError:" title="locationManager:didFailWithError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/locationManager:didFailWithError:">&ndash;&nbsp;locationManager:didFailWithError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)locationManager:(CLLocationManager *)<em>manager</em> didFailWithError:(NSError *)<em>error</em></code></div>
+
+		    
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/locationManager:didUpdateLocations:" title="locationManager:didUpdateLocations:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/locationManager:didUpdateLocations:">&ndash;&nbsp;locationManager:didUpdateLocations:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+
+			<div class="method-subsection method-declaration"><code>- (void)locationManager:(CLLocationManager *)<em>manager</em> didUpdateLocations:(NSArray *)<em>locations</em></code></div>
+
+		    
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
 					
-					window.name = "hideTOC";
-				}
-				else
-				{
-					this.setAttribute('class', 'open');
-					contents.setAttribute('class', 'isShowingTOC');
-					tocContainer.setAttribute('class', 'isShowingTOC');
 					
-					window.name = "";
-				}
-				return false;
-			}
-			
-			function toggleTOCEntryChildren(e)
-			{
-				e.stopPropagation();
-				var currentClass = this.getAttribute('class');
-				if (currentClass == 'children') {
-					this.setAttribute('class', 'children open');
-				}
-				else if (currentClass == 'children open') {
-					this.setAttribute('class', 'children');
-				}
-				return false;
-			}
-			
-			function tocEntryClick(e)
-			{
-				e.stopPropagation();
-				return true;
-			}
-			
-			function init()
-			{
-				var selectElement = document.getElementById('jumpTo');
-				selectElement.addEventListener('change', jumpToChange, false);
-				
-				var tocButton = document.getElementById('table_of_contents');
-				tocButton.addEventListener('click', toggleTOC, false);
-				
-				var taskTreeItem = document.getElementById('task_treeitem');
-				if (taskTreeItem.getElementsByTagName('li').length > 0)
-				{
-					taskTreeItem.setAttribute('class', 'children');
-					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
-				}
-				
-				var tocList = document.getElementById('toc');
-				
-				var tocEntries = tocList.getElementsByTagName('li');
-				for (var i = 0; i < tocEntries.length; i++) {
-					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
-				}
-				
-				var tocLinks = tocList.getElementsByTagName('a');
-				for (var i = 0; i < tocLinks.length; i++) {
-					tocLinks[i].addEventListener('click', tocEntryClick, false);
-				}
-				
-				if (window.name == "hideTOC") {
-					toggleTOC.call(tocButton);
-				}
-			}
-			
-			window.onload = init;
-			
-			// If showing in Xcode, hide the TOC and Header
-			if (navigator.userAgent.match(/xcode/i)) {
-				document.getElementById("contents").className = "hideInXcode"
-				document.getElementById("tocContainer").className = "hideInXcode"
-				document.getElementById("top_header").className = "hideInXcode"
-			}
-			
-		</script>
-	</body>
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2016 Gravity R&amp;D. All rights reserved. Updated: 2016-08-09</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
 </html>

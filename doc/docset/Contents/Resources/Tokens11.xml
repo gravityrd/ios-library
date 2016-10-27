@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GravityUser.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GravityUser</TokenIdentifier>
+			<Abstract type="html">User</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/setUserId:</TokenIdentifier>
+			<Abstract type="html">Id of the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/userId</TokenIdentifier>
+			<Abstract type="html">Id of the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityUser/userId</TokenIdentifier>
+			<Abstract type="html">Id of the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/setHidden:</TokenIdentifier>
+			<Abstract type="html">Visibilty flag of the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property BOOL hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/hidden</TokenIdentifier>
+			<Abstract type="html">Visibilty flag of the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property BOOL hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityUser/hidden</TokenIdentifier>
+			<Abstract type="html">Visibilty flag of the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property BOOL hidden</Declaration>
+			
+			
+			<Anchor>//api/name/hidden</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/setNameValues:</TokenIdentifier>
+			<Abstract type="html">The NameValues for the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property NSArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/nameValues</TokenIdentifier>
+			<Abstract type="html">The NameValues for the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property NSArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityUser/nameValues</TokenIdentifier>
+			<Abstract type="html">The NameValues for the user</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>@property NSArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/initWithDictionary:</TokenIdentifier>
+			<Abstract type="html">Initializes a GravityUser object with a dictionary</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDictionary:(NSDictionary *)dict</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>dict</Name>
+					<Abstract type="html">the dictionary representing the object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initialized GravityScenarioInfo object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithDictionary:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/initWithJSON:</TokenIdentifier>
+			<Abstract type="html">Initializes a GravityUser object with JSON data</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithJSON:(NSData *)jsonData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>jsonData</Name>
+					<Abstract type="html">the JSON data representing the object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initialized GravityScenarioInfo object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJSON:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GravityUser/usersToJSON:</TokenIdentifier>
+			<Abstract type="html">Converts a GravityUser array to JSON</Abstract>
+			<DeclaredIn>GravityUser.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)usersToJSON:(NSArray *)users</Declaration>
+			
+			
+			<Anchor>//api/name/usersToJSON:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityUser/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityUser.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/RecommendationViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/RecommendationViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/setTableView:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/RecommendationViewController/tableView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITableView *tableView</Declaration>
+			
+			
+			<Anchor>//api/name/tableView</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/trackButtonTap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)trackButtonTap:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/trackButtonTap:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/recommendButtonTap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)recommendButtonTap:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/recommendButtonTap:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/initWithNibName:bundle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil</Declaration>
+			
+			
+			<Anchor>//api/name/initWithNibName:bundle:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/viewDidLoad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/tableView:didSelectRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:didSelectRowAtIndexPath:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/tableView:accessoryButtonTappedForRowWithIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:accessoryButtonTappedForRowWithIndexPath:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/tableView:cellForRowAtIndexPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:cellForRowAtIndexPath:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/tableView:numberOfRowsInSection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section</Declaration>
+			
+			
+			<Anchor>//api/name/tableView:numberOfRowsInSection:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/didReceiveResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when response is received for a request</Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveResponse:(NSString *)response forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">the response</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveResponse:forRequest:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/RecommendationViewController/didReceiveRecommendation:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when recommendation is received for a request</Abstract>
+			<DeclaredIn>RecommendationViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveRecommendation:(GravityItemRecommendation *)recommendation forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>recommendation</Name>
+					<Abstract type="html">the recommendation</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveRecommendation:forRequest:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

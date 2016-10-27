@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/ViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/ViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setHelloTextField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *helloTextField</Declaration>
+			
+			
+			<Anchor>//api/name/helloTextField</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/helloTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *helloTextField</Declaration>
+			
+			
+			<Anchor>//api/name/helloTextField</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/helloTextField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UITextField *helloTextField</Declaration>
+			
+			
+			<Anchor>//api/name/helloTextField</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/setHelloButton:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *helloButton</Declaration>
+			
+			
+			<Anchor>//api/name/helloButton</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/helloButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *helloButton</Declaration>
+			
+			
+			<Anchor>//api/name/helloButton</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/ViewController/helloButton</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UIButton *helloButton</Declaration>
+			
+			
+			<Anchor>//api/name/helloButton</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/helloButtonTap:</TokenIdentifier>
+			<Abstract type="html">USER INFO *</Abstract>
+			<DeclaredIn>ViewController.h</DeclaredIn>
+			
+			<Declaration>- (IBAction)helloButtonTap:(id)sender</Declaration>
+			
+			
+			<Anchor>//api/name/helloButtonTap:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/viewDidLoad</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)viewDidLoad</Declaration>
+			
+			
+			<Anchor>//api/name/viewDidLoad</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/didReceiveMemoryWarning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveMemoryWarning</Declaration>
+			
+			
+			<Anchor>//api/name/didReceiveMemoryWarning</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/ViewController/didReceiveResponse:forRequest:</TokenIdentifier>
+			<Abstract type="html">Called when response is received for a request</Abstract>
+			<DeclaredIn>ViewController.m</DeclaredIn>
+			
+			<Declaration>- (void)didReceiveResponse:(NSString *)response forRequest:(GravityRequest *)request</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">the response</Abstract>
+				</Parameter><Parameter>
+					<Name>request</Name>
+					<Abstract type="html">the relevant request object</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/didReceiveResponse:forRequest:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

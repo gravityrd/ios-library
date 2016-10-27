@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GravityRequest.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GravityRequest</TokenIdentifier>
+			<Abstract type="html">A request to the Gravity service</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setType:</TokenIdentifier>
+			<Abstract type="html">Type of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property GravityRequestType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/type</TokenIdentifier>
+			<Abstract type="html">Type of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property GravityRequestType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/type</TokenIdentifier>
+			<Abstract type="html">Type of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property GravityRequestType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setMethod:</TokenIdentifier>
+			<Abstract type="html">The called method</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSString *method</Declaration>
+			
+			
+			<Anchor>//api/name/method</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/method</TokenIdentifier>
+			<Abstract type="html">The called method</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSString *method</Declaration>
+			
+			
+			<Anchor>//api/name/method</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/method</TokenIdentifier>
+			<Abstract type="html">The called method</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSString *method</Declaration>
+			
+			
+			<Anchor>//api/name/method</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setParams:</TokenIdentifier>
+			<Abstract type="html">URL parameters of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableArray *params</Declaration>
+			
+			
+			<Anchor>//api/name/params</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/params</TokenIdentifier>
+			<Abstract type="html">URL parameters of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableArray *params</Declaration>
+			
+			
+			<Anchor>//api/name/params</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/params</TokenIdentifier>
+			<Abstract type="html">URL parameters of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableArray *params</Declaration>
+			
+			
+			<Anchor>//api/name/params</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setBody:</TokenIdentifier>
+			<Abstract type="html">Body of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSData *body</Declaration>
+			
+			
+			<Anchor>//api/name/body</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/body</TokenIdentifier>
+			<Abstract type="html">Body of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSData *body</Declaration>
+			
+			
+			<Anchor>//api/name/body</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/body</TokenIdentifier>
+			<Abstract type="html">Body of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSData *body</Declaration>
+			
+			
+			<Anchor>//api/name/body</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setConnection:</TokenIdentifier>
+			<Abstract type="html">The relevant connection object</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSURLConnection *connection</Declaration>
+			
+			
+			<Anchor>//api/name/connection</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/connection</TokenIdentifier>
+			<Abstract type="html">The relevant connection object</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSURLConnection *connection</Declaration>
+			
+			
+			<Anchor>//api/name/connection</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/connection</TokenIdentifier>
+			<Abstract type="html">The relevant connection object</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSURLConnection *connection</Declaration>
+			
+			
+			<Anchor>//api/name/connection</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setResponse:</TokenIdentifier>
+			<Abstract type="html">Response of the server</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableData *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/response</TokenIdentifier>
+			<Abstract type="html">Response of the server</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableData *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/response</TokenIdentifier>
+			<Abstract type="html">Response of the server</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property NSMutableData *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setCompleted:</TokenIdentifier>
+			<Abstract type="html">The request is completed or not</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isCompleted) BOOL completed</Declaration>
+			
+			
+			<Anchor>//api/name/completed</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/isCompleted</TokenIdentifier>
+			<Abstract type="html">The request is completed or not</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isCompleted) BOOL completed</Declaration>
+			
+			
+			<Anchor>//api/name/completed</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/completed</TokenIdentifier>
+			<Abstract type="html">The request is completed or not</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly, getter=isCompleted) BOOL completed</Declaration>
+			
+			
+			<Anchor>//api/name/completed</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setItemRecommendation:</TokenIdentifier>
+			<Abstract type="html">The received recommendation</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GravityItemRecommendation *itemRecommendation</Declaration>
+			
+			
+			<Anchor>//api/name/itemRecommendation</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/itemRecommendation</TokenIdentifier>
+			<Abstract type="html">The received recommendation</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GravityItemRecommendation *itemRecommendation</Declaration>
+			
+			
+			<Anchor>//api/name/itemRecommendation</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/itemRecommendation</TokenIdentifier>
+			<Abstract type="html">The received recommendation</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) GravityItemRecommendation *itemRecommendation</Declaration>
+			
+			
+			<Anchor>//api/name/itemRecommendation</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setItemRecommendations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSMutableArray *itemRecommendations</Declaration>
+			
+			
+			<Anchor>//api/name/itemRecommendations</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/itemRecommendations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSMutableArray *itemRecommendations</Declaration>
+			
+			
+			<Anchor>//api/name/itemRecommendations</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/itemRecommendations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (readonly) NSMutableArray *itemRecommendations</Declaration>
+			
+			
+			<Anchor>//api/name/itemRecommendations</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/setCompletionHandler:</TokenIdentifier>
+			<Abstract type="html">Completion handler of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) GravityRequestCompletionHandler completionHandler</Declaration>
+			
+			
+			<Anchor>//api/name/completionHandler</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/completionHandler</TokenIdentifier>
+			<Abstract type="html">Completion handler of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) GravityRequestCompletionHandler completionHandler</Declaration>
+			
+			
+			<Anchor>//api/name/completionHandler</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRequest/completionHandler</TokenIdentifier>
+			<Abstract type="html">Completion handler of the request</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) GravityRequestCompletionHandler completionHandler</Declaration>
+			
+			
+			<Anchor>//api/name/completionHandler</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/initWithClient:andType:</TokenIdentifier>
+			<Abstract type="html">Initalizes a GravityRequest connection with an URL</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithClient:(GravityClient *)client andType:(GravityRequestType)type</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>client</Name>
+					<Abstract type="html">the GravityClient</Abstract>
+				</Parameter><Parameter>
+					<Name>type</Name>
+					<Abstract type="html">the GravityRequestType</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">an initialized GravityRequest object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithClient:andType:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/send</TokenIdentifier>
+			<Abstract type="html">Sends the GravityRequest of the GravityClient</Abstract>
+			<DeclaredIn>GravityRequest.h</DeclaredIn>
+			
+			<Declaration>- (void)send</Declaration>
+			
+			
+			<Anchor>//api/name/send</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/connection:willSendRequestForAuthenticationChallenge:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.m</DeclaredIn>
+			
+			<Declaration>- (void)connection:(NSURLConnection *)connection willSendRequestForAuthenticationChallenge:(NSURLAuthenticationChallenge *)challenge</Declaration>
+			
+			
+			<Anchor>//api/name/connection:willSendRequestForAuthenticationChallenge:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/connection:didFailWithError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.m</DeclaredIn>
+			
+			<Declaration>- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/connection:didFailWithError:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/connection:didReceiveData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.m</DeclaredIn>
+			
+			<Declaration>- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/connection:didReceiveData:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRequest/connectionDidFinishLoading:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRequest.m</DeclaredIn>
+			
+			<Declaration>- (void)connectionDidFinishLoading:(NSURLConnection *)connection</Declaration>
+			
+			
+			<Anchor>//api/name/connectionDidFinishLoading:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

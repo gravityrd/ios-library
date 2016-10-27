@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GravityRecommendationContext.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GravityRecommendationContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/setScenarioId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scenarioId</Declaration>
+			
+			
+			<Anchor>//api/name/scenarioId</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/scenarioId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scenarioId</Declaration>
+			
+			
+			<Anchor>//api/name/scenarioId</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRecommendationContext/scenarioId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *scenarioId</Declaration>
+			
+			
+			<Anchor>//api/name/scenarioId</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/setLimit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/limit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRecommendationContext/limit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger limit</Declaration>
+			
+			
+			<Anchor>//api/name/limit</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/setNameValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/nameValues</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRecommendationContext/nameValues</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *nameValues</Declaration>
+			
+			
+			<Anchor>//api/name/nameValues</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/setResultNameValues:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *resultNameValues</Declaration>
+			
+			
+			<Anchor>//api/name/resultNameValues</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GravityRecommendationContext/resultNameValues</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *resultNameValues</Declaration>
+			
+			
+			<Anchor>//api/name/resultNameValues</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GravityRecommendationContext/resultNameValues</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *resultNameValues</Declaration>
+			
+			
+			<Anchor>//api/name/resultNameValues</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GravityRecommendationContext/contextsToJSON:</TokenIdentifier>
+			<Abstract type="html">Converts a GravityRecommendationContext array to JSON</Abstract>
+			<DeclaredIn>GravityRecommendationContext.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)contextsToJSON:(NSArray *)contexts</Declaration>
+			
+			
+			<Anchor>//api/name/contextsToJSON:</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

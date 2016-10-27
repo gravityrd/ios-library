@@ -7,11 +7,11 @@
 //
 
 #import "GravityItem.h"
+#import "GravityNameValue.h"
 
 @implementation GravityItem
 
-- (id)initWithDictionary:(NSDictionary *)dict
-{
+- (id)initWithDictionary:(NSDictionary *)dict {
     self = [super init];
     if (self) {
         self.Id = dict[@"itemId"];
@@ -28,5 +28,27 @@
     return self;
 }
 
+- (NSString *)description {
+    return [NSString stringWithFormat: @"GravityItem: id=%@ type=%@ title=%@ hidden=%@ fromDate=%@ toDate=%@ nameValues=%@", _Id, _type, _title, _hidden ? @"true" : @"false", _fromDate, _toDate, _nameValues];
+}
+
++ (NSData *)itemsToJSON:(NSArray *)items {
+    NSMutableArray *data = [NSMutableArray arrayWithCapacity:items.count];
+    for(GravityItem *item in items) {
+        NSMutableArray *nameValues = [NSMutableArray array];
+        for(GravityNameValue *nameValue in item.nameValues) {
+            [nameValues addObject:[nameValue dictionary]];
+        }
+        NSDictionary *dict = @{
+                               @"itemId": item.Id,
+                               @"title": item.title,
+                               @"itemType": item.type,
+                               @"hidden": item.hidden ? @"true" : @"false",
+                               @"nameValues":nameValues
+                               };
+        [data addObject:dict];
+    }
+    return [NSJSONSerialization dataWithJSONObject:data options:0 error:nil];
+}
 
 @end

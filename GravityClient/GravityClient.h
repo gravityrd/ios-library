@@ -7,28 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CoreLocation/CoreLocation.h"
-#import "GravityRequest.h"
-#import "GravityNameValue.h"
-#import "GravityEvent.h"
 #import "GravityItemRecommendation.h"
+#import "GravityNameValue.h"
+
+#import "GravityRequest.h"
+#import "GravityItem.h"
+#import "GravityEvent.h"
+#import "GravityUser.h"
 #import "GravityRecommendationContext.h"
-
-@class GravityRequest;
-
+#import "CoreLocation/CoreLocation.h"
 
 typedef NSString* GravityResultOrder;
 FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPersonalized;
 FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderRelevance;
 FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
 
-
 /**
- Protocol for the delegate of a GravityClient object 
+ Protocol for the delegate of a GravityClient object
  */
 @protocol GravityClientDelegate <NSObject>
 
-@optional
 /**
  Called when an error is occured during the connection
  @param error the error object
@@ -43,6 +41,7 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
  */
 - (void)didReceiveResponse:(NSString *)response forRequest:(GravityRequest *)request;
 
+@optional
 /**
  Called when recommendation is received for a request
  @param recommendation the recommendation
@@ -50,7 +49,16 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
  */
 - (void)didReceiveRecommendation:(GravityItemRecommendation *)recommendation forRequest:(GravityRequest *)request;
 
+@optional
+/**
+ Called when scenarioInfo is received for a request
+ @param scenarioInfo the scenarioInfo
+ @param request the relevant request object
+ */
+- (void)didReceiveScenarioInfo:(NSArray *)scenarioInfo forRequest:(GravityRequest *)request;
+
 @end
+
 
 /**
  A client for the Gravity recommendation service
@@ -91,12 +99,6 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
 @property NSString *cookieId;
 
 /**
- Location of the client
- This will be automatically included in the events sent to the server
- */
-@property CLLocation *location;
-
-/**
  The last recommendation received by the client
  */
 @property GravityItemRecommendation *lastRecommandation;
@@ -107,11 +109,17 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
 @property NSMutableDictionary *recommendedItems;
 
 /**
+ Location of the client
+ This will be automatically included in the events sent to the server
+ */
+@property CLLocation *location;
+
+/**
  Escapes an URL string with percent signes
  @param aString the string to be escaped
  @return the escaped string
  */
-+ (NSString *) escapeString:(NSString *)aString;
++ (NSString *)escapeString:(NSString *)aString;
 
 /**
  Initalizes a GravityClient connection with an URL
@@ -134,7 +142,7 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
  @param name the name to say hello to
  @return a reference the the request object
  */
-- (GravityRequest *) sayHelloTo:(NSString *)name;
+- (GravityRequest *)sayHelloTo:(NSString *)name;
 
 /**
  Gets item recommendations
@@ -143,21 +151,30 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
  @param nameValues NameValues that should be included in the result
  @return a reference the the request object
  */
-- (GravityRequest *) recommendItemsForScenario:(NSString *)scenarioId limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues;
+- (GravityRequest *)getItemRecommendations:(NSString *)scenarioId limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues;
 
 /**
- Gets item recommendation
+ Gets item recommendations
  @param scenarioId the scenario
  @param limit the maximum number of result items
  @param nameValues NameValues that should be included in the result
  @param attributes any additional parameter to the request
- @return a reference the the request object
+ @return a reference the request object
  */
-- (GravityRequest *) recommendItemsForScenario:(NSString *)scenarioId limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues attributes:(NSArray *)attributes;
+- (GravityRequest *)getItemRecommendations:(NSString *)scenarioId limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues attributes:(NSArray *)attributes;
 
-- (GravityRequest *) recommendItemsWithContext:(GravityRecommendationContext *)context;
 
-- (GravityRequest *) recommendItemsWithContexts:(NSArray *)contexts;
+/**
+ Gets item recommendations in a bulk way
+ @param context the GravityRecommendationContext wich holds the scenarioId, numberLimit, nameValues and resultNameValues
+ */
+- (GravityRequest *)getItemRecommendationBulk:(GravityRecommendationContext *)context;
+
+/**
+ Gets item recommendations in a bulk way
+ @param contexts the context array. A GravityRecommendationContext holds the scenarioId, numberLimit, nameValues and resultNameValues
+ */
+- (GravityRequest *)getItemRecommendationsBulk:(NSArray *)contexts;
 
 /**
  Searches items with the given keyword
@@ -166,7 +183,7 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
  @param nameValues NameValues that should be included in the result
  @return a reference the the request object
  */
-- (GravityRequest *) searchItemsWithKeyword:(NSString *)keyword limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues;
+- (GravityRequest *)searchItemsWithKeyword:(NSString *)keyword limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues;
 
 /**
  Searches items with the given keyword and orders result
@@ -176,26 +193,76 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
  @param order defines how to order results
  @return a reference the the request object
  */
-- (GravityRequest *) searchItemsWithKeyword:(NSString *)keyword limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues orderBy:(GravityResultOrder) order;
+- (GravityRequest *)searchItemsWithKeyword:(NSString *)keyword limit:(NSUInteger)limit resultNameValues:(NSArray *)nameValues orderBy:(GravityResultOrder)order;
 
 /**
- Adds a new user event
+ Adds a new event
  @param event the event object
  @return a reference the the request object
  */
-- (GravityRequest *) addEvent:(GravityEvent *)event;
+- (GravityRequest *)addEvent:(GravityEvent *)event;
 
 /**
- Adds a new user event
- @param itemId the itemId related to the event
- @param type type of the event
+ Adds new events
+ @param events the event array
  @return a reference the the request object
  */
-- (GravityRequest *) addEventForItem:(NSString *)itemId type:(NSString *)type;
+- (GravityRequest *)addEvents:(NSArray *)events;
+
+/**
+ Adds a new item to the RECO if the item has not been added yet.
+ If the given item is already exist it will be updated.
+ An item is already exist if there is an item with the same Id in the system.
+ @param item the item object
+ */
+- (GravityRequest *)addItem:(GravityItem *)item;
+
+/**
+ Adds items to the RECO if the item has not been added yet.
+ If the given item is already exist it will be updated.
+ An item is already exist if there is an item with the same Id in the system.
+ @param item the item object
+ */
+- (GravityRequest *)addItems:(NSArray *)item;
+
+/**
+ Sets hidden value for an item.
+ If an item is hidden it won't be recommended.
+ If you want to delete an item you should hide it, beacuse item deletion is not supported.
+ @param item the item object
+ */
+- (GravityRequest *)updateItem:(GravityItem *)item;
+
+/**
+ Sets hidden value for items.
+ If an item is hidden it won't be recommended.
+ If you want to delete an item you should hide it, beacuse item deletion is not supported.
+ @param item the item object
+ */
+- (GravityRequest *)updateItems:(NSArray *)items;
+
+/**
+ Adds or updates an user.
+ @param users the users array
+ */
+- (GravityRequest *)addUser:(GravityUser *)user;
+
+/**
+ Adds or updates users.
+ @param users the users array
+ */
+- (GravityRequest *)addUsers:(NSArray *)users;
+
+/**
+ Gets all scenarioInfo
+ @param user the user object
+ */
+- (GravityRequest *)getAllScenarioInfo;
 
 /**
  Gets user location info and stores it for later events
  */
 - (void)trackLocation;
+
 
 @end

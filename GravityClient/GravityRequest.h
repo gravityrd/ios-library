@@ -7,18 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "GravityClient.h"
-#import "GravityItemRecommendation.h"
 
 @class GravityClient;
 @class GravityRequest;
+@class GravityItemRecommendation;
 
 enum {
     GravityRequestTypeHello = 0,
     GravityRequestTypeRecommendation,
     GravityRequestTypeBulkRecommendation,
     GravityRequestTypeSearch,
-    GravityRequestTypeEvent
+    GravityRequestTypeEvent,
+    GravityRequestTypeScenarioInfo,
+    GravityRequestTypeUser,
+    GravityRequestTypeItem
 };
 typedef NSUInteger GravityRequestType;
 
@@ -75,7 +77,17 @@ typedef void (^GravityRequestCompletionHandler)(GravityRequest *);
  */
 @property (nonatomic, copy) GravityRequestCompletionHandler completionHandler;
 
+/**
+ Initalizes a GravityRequest connection with an URL
+ @param client the GravityClient
+ @param type the GravityRequestType
+ @return an initialized GravityRequest object
+ */
 - (id) initWithClient:(GravityClient *)client andType:(GravityRequestType)type;
+
+/**
+ Sends the GravityRequest of the GravityClient
+ */
 - (void) send;
 
 
