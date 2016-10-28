@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0E357A541D54D491008E758A"
-               BuildableName = "Documentation"
-               BlueprintName = "Documentation"
-               ReferencedContainer = "container:GravityClientDemoApp.xcodeproj">
+               BlueprintIdentifier = "0E4B78801DC3772E005800F5"
+               BuildableName = "libGravityClient.a"
+               BlueprintName = "GravityClient"
+               ReferencedContainer = "container:GravityClient.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E357A541D54D491008E758A"
-            BuildableName = "Documentation"
-            BlueprintName = "Documentation"
-            ReferencedContainer = "container:GravityClientDemoApp.xcodeproj">
+            BlueprintIdentifier = "0E4B78801DC3772E005800F5"
+            BuildableName = "libGravityClient.a"
+            BlueprintName = "GravityClient"
+            ReferencedContainer = "container:GravityClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0E357A541D54D491008E758A"
-            BuildableName = "Documentation"
-            BlueprintName = "Documentation"
-            ReferencedContainer = "container:GravityClientDemoApp.xcodeproj">
+            BlueprintIdentifier = "0E4B78801DC3772E005800F5"
+            BuildableName = "libGravityClient.a"
+            BlueprintName = "GravityClient"
+            ReferencedContainer = "container:GravityClient.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

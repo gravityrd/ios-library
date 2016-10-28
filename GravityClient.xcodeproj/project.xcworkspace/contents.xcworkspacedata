@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:GravityClientDemoApp.xcodeproj">
+      location = "self:GravityClient.xcodeproj">
    </FileRef>
 </Workspace>

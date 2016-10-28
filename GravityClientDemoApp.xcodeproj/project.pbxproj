@@ -21,15 +21,15 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0E04AD3C1D5A2EC100A34072 /* GravityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD2B1D5A2EC100A34072 /* GravityClient.m */; };
-		0E04AD3D1D5A2EC100A34072 /* GravityEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD2D1D5A2EC100A34072 /* GravityEvent.m */; };
-		0E04AD3E1D5A2EC100A34072 /* GravityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD2F1D5A2EC100A34072 /* GravityItem.m */; };
-		0E04AD3F1D5A2EC100A34072 /* GravityItemRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD311D5A2EC100A34072 /* GravityItemRecommendation.m */; };
-		0E04AD401D5A2EC100A34072 /* GravityNameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD331D5A2EC100A34072 /* GravityNameValue.m */; };
-		0E04AD411D5A2EC100A34072 /* GravityRecommendationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD351D5A2EC100A34072 /* GravityRecommendationContext.m */; };
-		0E04AD421D5A2EC100A34072 /* GravityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD371D5A2EC100A34072 /* GravityRequest.m */; };
-		0E04AD431D5A2EC100A34072 /* GravityScenarioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD391D5A2EC100A34072 /* GravityScenarioInfo.m */; };
-		0E04AD441D5A2EC100A34072 /* GravityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04AD3B1D5A2EC100A34072 /* GravityUser.m */; };
+		0E4B79291DC37CA9005800F5 /* GravityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79181DC37CA9005800F5 /* GravityClient.m */; };
+		0E4B792A1DC37CA9005800F5 /* GravityEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B791A1DC37CA9005800F5 /* GravityEvent.m */; };
+		0E4B792B1DC37CA9005800F5 /* GravityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B791C1DC37CA9005800F5 /* GravityItem.m */; };
+		0E4B792C1DC37CA9005800F5 /* GravityItemRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B791E1DC37CA9005800F5 /* GravityItemRecommendation.m */; };
+		0E4B792D1DC37CA9005800F5 /* GravityNameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79201DC37CA9005800F5 /* GravityNameValue.m */; };
+		0E4B792E1DC37CA9005800F5 /* GravityRecommendationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79221DC37CA9005800F5 /* GravityRecommendationContext.m */; };
+		0E4B792F1DC37CA9005800F5 /* GravityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79241DC37CA9005800F5 /* GravityRequest.m */; };
+		0E4B79301DC37CA9005800F5 /* GravityScenarioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79261DC37CA9005800F5 /* GravityScenarioInfo.m */; };
+		0E4B79311DC37CA9005800F5 /* GravityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79281DC37CA9005800F5 /* GravityUser.m */; };
 		0E6E760F1D4A288900F18AD8 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E760E1D4A288900F18AD8 /* AddItemViewController.m */; };
 		98AC4E29179681B1000A4F93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E28179681B1000A4F93 /* UIKit.framework */; };
 		98AC4E2B179681B1000A4F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E2A179681B1000A4F93 /* Foundation.framework */; };
@@ -45,39 +45,39 @@
 		98AC4E5E17968B9F000A4F93 /* RecommendationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E4C179681EE000A4F93 /* RecommendationViewController.m */; };
 		98AC4E5F17968B9F000A4F93 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E4E179681EE000A4F93 /* SearchViewController.m */; };
 		98AC4E6617968E78000A4F93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E6517968E78000A4F93 /* CoreLocation.framework */; };
-		98AC4E6E179691A9000A4F93 /* libGravityClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E6D17969155000A4F93 /* libGravityClient.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		98AC4E6C17969155000A4F93 /* PBXContainerItemProxy */ = {
+		0E4B79121DC37C6E005800F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 98AC4E6817969154000A4F93 /* GravityClient.xcodeproj */;
+			containerPortal = 0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9800BCCB17967C6400B73D07;
+			remoteGlobalIDString = 0E4B78811DC3772E005800F5;
 			remoteInfo = GravityClient;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E04AD291D5A2EC100A34072 /* GravityClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GravityClient-Prefix.pch"; path = "client 3/GravityClient-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		0E04AD2A1D5A2EC100A34072 /* GravityClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityClient.h; path = "client 3/GravityClient.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD2B1D5A2EC100A34072 /* GravityClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityClient.m; path = "client 3/GravityClient.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD2C1D5A2EC100A34072 /* GravityEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityEvent.h; path = "client 3/GravityEvent.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD2D1D5A2EC100A34072 /* GravityEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityEvent.m; path = "client 3/GravityEvent.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD2E1D5A2EC100A34072 /* GravityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityItem.h; path = "client 3/GravityItem.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD2F1D5A2EC100A34072 /* GravityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityItem.m; path = "client 3/GravityItem.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD301D5A2EC100A34072 /* GravityItemRecommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityItemRecommendation.h; path = "client 3/GravityItemRecommendation.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD311D5A2EC100A34072 /* GravityItemRecommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityItemRecommendation.m; path = "client 3/GravityItemRecommendation.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD321D5A2EC100A34072 /* GravityNameValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityNameValue.h; path = "client 3/GravityNameValue.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD331D5A2EC100A34072 /* GravityNameValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityNameValue.m; path = "client 3/GravityNameValue.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD341D5A2EC100A34072 /* GravityRecommendationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityRecommendationContext.h; path = "client 3/GravityRecommendationContext.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD351D5A2EC100A34072 /* GravityRecommendationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityRecommendationContext.m; path = "client 3/GravityRecommendationContext.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD361D5A2EC100A34072 /* GravityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityRequest.h; path = "client 3/GravityRequest.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD371D5A2EC100A34072 /* GravityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityRequest.m; path = "client 3/GravityRequest.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD381D5A2EC100A34072 /* GravityScenarioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityScenarioInfo.h; path = "client 3/GravityScenarioInfo.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD391D5A2EC100A34072 /* GravityScenarioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityScenarioInfo.m; path = "client 3/GravityScenarioInfo.m"; sourceTree = SOURCE_ROOT; };
-		0E04AD3A1D5A2EC100A34072 /* GravityUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityUser.h; path = "client 3/GravityUser.h"; sourceTree = SOURCE_ROOT; };
-		0E04AD3B1D5A2EC100A34072 /* GravityUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityUser.m; path = "client 3/GravityUser.m"; sourceTree = SOURCE_ROOT; };
+		0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GravityClient.xcodeproj; path = ../../../Documents/GravityClient/GravityClient.xcodeproj; sourceTree = "<group>"; };
+		0E4B79161DC37CA9005800F5 /* GravityClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GravityClient-Prefix.pch"; path = "GravityClient/GravityClient-Prefix.pch"; sourceTree = "<group>"; };
+		0E4B79171DC37CA9005800F5 /* GravityClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityClient.h; path = GravityClient/GravityClient.h; sourceTree = "<group>"; };
+		0E4B79181DC37CA9005800F5 /* GravityClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityClient.m; path = GravityClient/GravityClient.m; sourceTree = "<group>"; };
+		0E4B79191DC37CA9005800F5 /* GravityEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityEvent.h; path = GravityClient/GravityEvent.h; sourceTree = "<group>"; };
+		0E4B791A1DC37CA9005800F5 /* GravityEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityEvent.m; path = GravityClient/GravityEvent.m; sourceTree = "<group>"; };
+		0E4B791B1DC37CA9005800F5 /* GravityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityItem.h; path = GravityClient/GravityItem.h; sourceTree = "<group>"; };
+		0E4B791C1DC37CA9005800F5 /* GravityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityItem.m; path = GravityClient/GravityItem.m; sourceTree = "<group>"; };
+		0E4B791D1DC37CA9005800F5 /* GravityItemRecommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityItemRecommendation.h; path = GravityClient/GravityItemRecommendation.h; sourceTree = "<group>"; };
+		0E4B791E1DC37CA9005800F5 /* GravityItemRecommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityItemRecommendation.m; path = GravityClient/GravityItemRecommendation.m; sourceTree = "<group>"; };
+		0E4B791F1DC37CA9005800F5 /* GravityNameValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityNameValue.h; path = GravityClient/GravityNameValue.h; sourceTree = "<group>"; };
+		0E4B79201DC37CA9005800F5 /* GravityNameValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityNameValue.m; path = GravityClient/GravityNameValue.m; sourceTree = "<group>"; };
+		0E4B79211DC37CA9005800F5 /* GravityRecommendationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityRecommendationContext.h; path = GravityClient/GravityRecommendationContext.h; sourceTree = "<group>"; };
+		0E4B79221DC37CA9005800F5 /* GravityRecommendationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityRecommendationContext.m; path = GravityClient/GravityRecommendationContext.m; sourceTree = "<group>"; };
+		0E4B79231DC37CA9005800F5 /* GravityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityRequest.h; path = GravityClient/GravityRequest.h; sourceTree = "<group>"; };
+		0E4B79241DC37CA9005800F5 /* GravityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityRequest.m; path = GravityClient/GravityRequest.m; sourceTree = "<group>"; };
+		0E4B79251DC37CA9005800F5 /* GravityScenarioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityScenarioInfo.h; path = GravityClient/GravityScenarioInfo.h; sourceTree = "<group>"; };
+		0E4B79261DC37CA9005800F5 /* GravityScenarioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityScenarioInfo.m; path = GravityClient/GravityScenarioInfo.m; sourceTree = "<group>"; };
+		0E4B79271DC37CA9005800F5 /* GravityUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityUser.h; path = GravityClient/GravityUser.h; sourceTree = "<group>"; };
+		0E4B79281DC37CA9005800F5 /* GravityUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityUser.m; path = GravityClient/GravityUser.m; sourceTree = "<group>"; };
 		0E6E760D1D4A280A00F18AD8 /* AddItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
 		0E6E760E1D4A288900F18AD8 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
 		98AC4E25179681B1000A4F93 /* GravityClientDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityClientDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +101,6 @@
 		98AC4E4D179681EE000A4F93 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		98AC4E4E179681EE000A4F93 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		98AC4E6517968E78000A4F93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		98AC4E6817969154000A4F93 /* GravityClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GravityClient.xcodeproj; path = "gravity-ios-library/GravityClient.xcodeproj"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98AC4E6E179691A9000A4F93 /* libGravityClient.a in Frameworks */,
 				98AC4E6617968E78000A4F93 /* CoreLocation.framework in Frameworks */,
 				98AC4E29179681B1000A4F93 /* UIKit.framework in Frameworks */,
 				98AC4E2B179681B1000A4F93 /* Foundation.framework in Frameworks */,
@@ -120,9 +118,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4B79051DC37BCC005800F5 /* GravityClient */ = {
+			isa = PBXGroup;
+			children = (
+				0E4B79161DC37CA9005800F5 /* GravityClient-Prefix.pch */,
+				0E4B79171DC37CA9005800F5 /* GravityClient.h */,
+				0E4B79181DC37CA9005800F5 /* GravityClient.m */,
+				0E4B79191DC37CA9005800F5 /* GravityEvent.h */,
+				0E4B791A1DC37CA9005800F5 /* GravityEvent.m */,
+				0E4B791B1DC37CA9005800F5 /* GravityItem.h */,
+				0E4B791C1DC37CA9005800F5 /* GravityItem.m */,
+				0E4B791D1DC37CA9005800F5 /* GravityItemRecommendation.h */,
+				0E4B791E1DC37CA9005800F5 /* GravityItemRecommendation.m */,
+				0E4B791F1DC37CA9005800F5 /* GravityNameValue.h */,
+				0E4B79201DC37CA9005800F5 /* GravityNameValue.m */,
+				0E4B79211DC37CA9005800F5 /* GravityRecommendationContext.h */,
+				0E4B79221DC37CA9005800F5 /* GravityRecommendationContext.m */,
+				0E4B79231DC37CA9005800F5 /* GravityRequest.h */,
+				0E4B79241DC37CA9005800F5 /* GravityRequest.m */,
+				0E4B79251DC37CA9005800F5 /* GravityScenarioInfo.h */,
+				0E4B79261DC37CA9005800F5 /* GravityScenarioInfo.m */,
+				0E4B79271DC37CA9005800F5 /* GravityUser.h */,
+				0E4B79281DC37CA9005800F5 /* GravityUser.m */,
+			);
+			name = GravityClient;
+			sourceTree = "<group>";
+		};
+		0E4B790F1DC37C6E005800F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4B79131DC37C6E005800F5 /* libGravityClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		98AC4E1C179681B1000A4F93 = {
 			isa = PBXGroup;
 			children = (
+				0E4B79051DC37BCC005800F5 /* GravityClient */,
 				98AC4E2E179681B1000A4F93 /* GravityClientDemoApp */,
 				98AC4E27179681B1000A4F93 /* Frameworks */,
 				98AC4E26179681B1000A4F93 /* Products */,
@@ -151,26 +184,7 @@
 		98AC4E2E179681B1000A4F93 /* GravityClientDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				0E04AD291D5A2EC100A34072 /* GravityClient-Prefix.pch */,
-				0E04AD2A1D5A2EC100A34072 /* GravityClient.h */,
-				0E04AD2B1D5A2EC100A34072 /* GravityClient.m */,
-				0E04AD2C1D5A2EC100A34072 /* GravityEvent.h */,
-				0E04AD2D1D5A2EC100A34072 /* GravityEvent.m */,
-				0E04AD2E1D5A2EC100A34072 /* GravityItem.h */,
-				0E04AD2F1D5A2EC100A34072 /* GravityItem.m */,
-				0E04AD301D5A2EC100A34072 /* GravityItemRecommendation.h */,
-				0E04AD311D5A2EC100A34072 /* GravityItemRecommendation.m */,
-				0E04AD321D5A2EC100A34072 /* GravityNameValue.h */,
-				0E04AD331D5A2EC100A34072 /* GravityNameValue.m */,
-				0E04AD341D5A2EC100A34072 /* GravityRecommendationContext.h */,
-				0E04AD351D5A2EC100A34072 /* GravityRecommendationContext.m */,
-				0E04AD361D5A2EC100A34072 /* GravityRequest.h */,
-				0E04AD371D5A2EC100A34072 /* GravityRequest.m */,
-				0E04AD381D5A2EC100A34072 /* GravityScenarioInfo.h */,
-				0E04AD391D5A2EC100A34072 /* GravityScenarioInfo.m */,
-				0E04AD3A1D5A2EC100A34072 /* GravityUser.h */,
-				0E04AD3B1D5A2EC100A34072 /* GravityUser.m */,
-				98AC4E6817969154000A4F93 /* GravityClient.xcodeproj */,
+				0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */,
 				98AC4E40179681B1000A4F93 /* MainStoryboard.storyboard */,
 				98AC4E37179681B1000A4F93 /* AppDelegate.h */,
 				98AC4E38179681B1000A4F93 /* AppDelegate.m */,
@@ -200,14 +214,6 @@
 				98AC4E3E179681B1000A4F93 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		98AC4E6917969154000A4F93 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				98AC4E6D17969155000A4F93 /* libGravityClient.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +269,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 98AC4E6917969154000A4F93 /* Products */;
-					ProjectRef = 98AC4E6817969154000A4F93 /* GravityClient.xcodeproj */;
+					ProductGroup = 0E4B790F1DC37C6E005800F5 /* Products */;
+					ProjectRef = 0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -276,11 +282,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		98AC4E6D17969155000A4F93 /* libGravityClient.a */ = {
+		0E4B79131DC37C6E005800F5 /* libGravityClient.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libGravityClient.a;
-			remoteRef = 98AC4E6C17969155000A4F93 /* PBXContainerItemProxy */;
+			remoteRef = 0E4B79121DC37C6E005800F5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -323,20 +329,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				98AC4E5E17968B9F000A4F93 /* RecommendationViewController.m in Sources */,
-				0E04AD431D5A2EC100A34072 /* GravityScenarioInfo.m in Sources */,
-				0E04AD421D5A2EC100A34072 /* GravityRequest.m in Sources */,
-				0E04AD411D5A2EC100A34072 /* GravityRecommendationContext.m in Sources */,
-				0E04AD3F1D5A2EC100A34072 /* GravityItemRecommendation.m in Sources */,
-				0E04AD3E1D5A2EC100A34072 /* GravityItem.m in Sources */,
-				0E04AD401D5A2EC100A34072 /* GravityNameValue.m in Sources */,
-				0E04AD441D5A2EC100A34072 /* GravityUser.m in Sources */,
+				0E4B792A1DC37CA9005800F5 /* GravityEvent.m in Sources */,
+				0E4B792F1DC37CA9005800F5 /* GravityRequest.m in Sources */,
+				0E4B792D1DC37CA9005800F5 /* GravityNameValue.m in Sources */,
+				0E4B79311DC37CA9005800F5 /* GravityUser.m in Sources */,
+				0E4B792C1DC37CA9005800F5 /* GravityItemRecommendation.m in Sources */,
+				0E4B79291DC37CA9005800F5 /* GravityClient.m in Sources */,
 				0E6E760F1D4A288900F18AD8 /* AddItemViewController.m in Sources */,
 				98AC4E5F17968B9F000A4F93 /* SearchViewController.m in Sources */,
 				98AC4E35179681B1000A4F93 /* main.m in Sources */,
 				98AC4E39179681B1000A4F93 /* AppDelegate.m in Sources */,
-				0E04AD3D1D5A2EC100A34072 /* GravityEvent.m in Sources */,
+				0E4B792E1DC37CA9005800F5 /* GravityRecommendationContext.m in Sources */,
+				0E4B792B1DC37CA9005800F5 /* GravityItem.m in Sources */,
+				0E4B79301DC37CA9005800F5 /* GravityScenarioInfo.m in Sources */,
 				98AC4E45179681B1000A4F93 /* ViewController.m in Sources */,
-				0E04AD3C1D5A2EC100A34072 /* GravityClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +447,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GravityClientDemoApp/GravityClientDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "GravityClientDemoApp/GravityClientDemoApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/gravity/Downloads/ios-library-master",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gravityrd.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -455,6 +466,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GravityClientDemoApp/GravityClientDemoApp-Prefix.pch";
 				INFOPLIST_FILE = "GravityClientDemoApp/GravityClientDemoApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/gravity/Downloads/ios-library-master",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gravityrd.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -473,6 +489,7 @@
 				0E04AD251D5A261A00A34072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98AC4E20179681B1000A4F93 /* Build configuration list for PBXProject "GravityClientDemoApp" */ = {
 			isa = XCConfigurationList;

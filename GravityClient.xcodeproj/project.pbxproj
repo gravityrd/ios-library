@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4B78A01DC37749005800F5 /* GravityClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B788F1DC37749005800F5 /* GravityClient.m */; };
+		0E4B78A11DC37749005800F5 /* GravityEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B78911DC37749005800F5 /* GravityEvent.m */; };
+		0E4B78A21DC37749005800F5 /* GravityItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B78931DC37749005800F5 /* GravityItem.m */; };
+		0E4B78A31DC37749005800F5 /* GravityItemRecommendation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B78951DC37749005800F5 /* GravityItemRecommendation.m */; };
+		0E4B78A41DC37749005800F5 /* GravityNameValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B78971DC37749005800F5 /* GravityNameValue.m */; };
+		0E4B78A51DC37749005800F5 /* GravityRecommendationContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B78991DC37749005800F5 /* GravityRecommendationContext.m */; };
+		0E4B78A61DC37749005800F5 /* GravityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B789B1DC37749005800F5 /* GravityRequest.m */; };
+		0E4B78A71DC37749005800F5 /* GravityScenarioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B789D1DC37749005800F5 /* GravityScenarioInfo.m */; };
+		0E4B78A81DC37749005800F5 /* GravityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B789F1DC37749005800F5 /* GravityUser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E4B787F1DC3772E005800F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E4B78811DC3772E005800F5 /* libGravityClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGravityClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4B788D1DC37749005800F5 /* GravityClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GravityClient-Prefix.pch"; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityClient-Prefix.pch"; sourceTree = "<group>"; };
+		0E4B788E1DC37749005800F5 /* GravityClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityClient.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityClient.h"; sourceTree = "<group>"; };
+		0E4B788F1DC37749005800F5 /* GravityClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityClient.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityClient.m"; sourceTree = "<group>"; };
+		0E4B78901DC37749005800F5 /* GravityEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityEvent.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityEvent.h"; sourceTree = "<group>"; };
+		0E4B78911DC37749005800F5 /* GravityEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityEvent.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityEvent.m"; sourceTree = "<group>"; };
+		0E4B78921DC37749005800F5 /* GravityItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityItem.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityItem.h"; sourceTree = "<group>"; };
+		0E4B78931DC37749005800F5 /* GravityItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityItem.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityItem.m"; sourceTree = "<group>"; };
+		0E4B78941DC37749005800F5 /* GravityItemRecommendation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityItemRecommendation.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityItemRecommendation.h"; sourceTree = "<group>"; };
+		0E4B78951DC37749005800F5 /* GravityItemRecommendation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityItemRecommendation.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityItemRecommendation.m"; sourceTree = "<group>"; };
+		0E4B78961DC37749005800F5 /* GravityNameValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityNameValue.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityNameValue.h"; sourceTree = "<group>"; };
+		0E4B78971DC37749005800F5 /* GravityNameValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityNameValue.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityNameValue.m"; sourceTree = "<group>"; };
+		0E4B78981DC37749005800F5 /* GravityRecommendationContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityRecommendationContext.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityRecommendationContext.h"; sourceTree = "<group>"; };
+		0E4B78991DC37749005800F5 /* GravityRecommendationContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityRecommendationContext.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityRecommendationContext.m"; sourceTree = "<group>"; };
+		0E4B789A1DC37749005800F5 /* GravityRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityRequest.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityRequest.h"; sourceTree = "<group>"; };
+		0E4B789B1DC37749005800F5 /* GravityRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityRequest.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityRequest.m"; sourceTree = "<group>"; };
+		0E4B789C1DC37749005800F5 /* GravityScenarioInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityScenarioInfo.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityScenarioInfo.h"; sourceTree = "<group>"; };
+		0E4B789D1DC37749005800F5 /* GravityScenarioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityScenarioInfo.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityScenarioInfo.m"; sourceTree = "<group>"; };
+		0E4B789E1DC37749005800F5 /* GravityUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityUser.h; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityUser.h"; sourceTree = "<group>"; };
+		0E4B789F1DC37749005800F5 /* GravityUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityUser.m; path = "../../../Downloads/gravity-ios-library-demo-app 4/client 3/GravityUser.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E4B787E1DC3772E005800F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4B78781DC3772E005800F5 = {
+			isa = PBXGroup;
+			children = (
+				0E4B78831DC3772E005800F5 /* GravityClient */,
+				0E4B78821DC3772E005800F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E4B78821DC3772E005800F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E4B78811DC3772E005800F5 /* libGravityClient.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E4B78831DC3772E005800F5 /* GravityClient */ = {
+			isa = PBXGroup;
+			children = (
+				0E4B788D1DC37749005800F5 /* GravityClient-Prefix.pch */,
+				0E4B788E1DC37749005800F5 /* GravityClient.h */,
+				0E4B788F1DC37749005800F5 /* GravityClient.m */,
+				0E4B78901DC37749005800F5 /* GravityEvent.h */,
+				0E4B78911DC37749005800F5 /* GravityEvent.m */,
+				0E4B78921DC37749005800F5 /* GravityItem.h */,
+				0E4B78931DC37749005800F5 /* GravityItem.m */,
+				0E4B78941DC37749005800F5 /* GravityItemRecommendation.h */,
+				0E4B78951DC37749005800F5 /* GravityItemRecommendation.m */,
+				0E4B78961DC37749005800F5 /* GravityNameValue.h */,
+				0E4B78971DC37749005800F5 /* GravityNameValue.m */,
+				0E4B78981DC37749005800F5 /* GravityRecommendationContext.h */,
+				0E4B78991DC37749005800F5 /* GravityRecommendationContext.m */,
+				0E4B789A1DC37749005800F5 /* GravityRequest.h */,
+				0E4B789B1DC37749005800F5 /* GravityRequest.m */,
+				0E4B789C1DC37749005800F5 /* GravityScenarioInfo.h */,
+				0E4B789D1DC37749005800F5 /* GravityScenarioInfo.m */,
+				0E4B789E1DC37749005800F5 /* GravityUser.h */,
+				0E4B789F1DC37749005800F5 /* GravityUser.m */,
+			);
+			path = GravityClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E4B78801DC3772E005800F5 /* GravityClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E4B788A1DC3772E005800F5 /* Build configuration list for PBXNativeTarget "GravityClient" */;
+			buildPhases = (
+				0E4B787D1DC3772E005800F5 /* Sources */,
+				0E4B787E1DC3772E005800F5 /* Frameworks */,
+				0E4B787F1DC3772E005800F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityClient;
+			productName = GravityClient;
+			productReference = 0E4B78811DC3772E005800F5 /* libGravityClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E4B78791DC3772E005800F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gravity;
+				TargetAttributes = {
+					0E4B78801DC3772E005800F5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E4B787C1DC3772E005800F5 /* Build configuration list for PBXProject "GravityClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E4B78781DC3772E005800F5;
+			productRefGroup = 0E4B78821DC3772E005800F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E4B78801DC3772E005800F5 /* GravityClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4B787D1DC3772E005800F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4B78A61DC37749005800F5 /* GravityRequest.m in Sources */,
+				0E4B78A81DC37749005800F5 /* GravityUser.m in Sources */,
+				0E4B78A31DC37749005800F5 /* GravityItemRecommendation.m in Sources */,
+				0E4B78A01DC37749005800F5 /* GravityClient.m in Sources */,
+				0E4B78A21DC37749005800F5 /* GravityItem.m in Sources */,
+				0E4B78A51DC37749005800F5 /* GravityRecommendationContext.m in Sources */,
+				0E4B78A11DC37749005800F5 /* GravityEvent.m in Sources */,
+				0E4B78A71DC37749005800F5 /* GravityScenarioInfo.m in Sources */,
+				0E4B78A41DC37749005800F5 /* GravityNameValue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E4B78881DC3772E005800F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E4B78891DC3772E005800F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E4B788B1DC3772E005800F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0E4B788C1DC3772E005800F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E4B787C1DC3772E005800F5 /* Build configuration list for PBXProject "GravityClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4B78881DC3772E005800F5 /* Debug */,
+				0E4B78891DC3772E005800F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E4B788A1DC3772E005800F5 /* Build configuration list for PBXNativeTarget "GravityClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4B788B1DC3772E005800F5 /* Debug */,
+				0E4B788C1DC3772E005800F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E4B78791DC3772E005800F5 /* Project object */;
+}
