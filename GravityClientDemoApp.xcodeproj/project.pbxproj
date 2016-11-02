@@ -30,35 +30,25 @@
 		0E4B792F1DC37CA9005800F5 /* GravityRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79241DC37CA9005800F5 /* GravityRequest.m */; };
 		0E4B79301DC37CA9005800F5 /* GravityScenarioInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79261DC37CA9005800F5 /* GravityScenarioInfo.m */; };
 		0E4B79311DC37CA9005800F5 /* GravityUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4B79281DC37CA9005800F5 /* GravityUser.m */; };
-		0E6E760F1D4A288900F18AD8 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6E760E1D4A288900F18AD8 /* AddItemViewController.m */; };
+		0E6B56E71DCA050E00C628CB /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56DE1DCA050E00C628CB /* AddItemViewController.m */; };
+		0E6B56E81DCA050E00C628CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56E01DCA050E00C628CB /* AppDelegate.m */; };
+		0E6B56E91DCA050E00C628CB /* RecommendationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56E21DCA050E00C628CB /* RecommendationViewController.m */; };
+		0E6B56EA1DCA050E00C628CB /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56E41DCA050E00C628CB /* SearchViewController.m */; };
+		0E6B56EB1DCA050E00C628CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56E61DCA050E00C628CB /* ViewController.m */; };
+		0E6B56F21DCA053000C628CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56EC1DCA053000C628CB /* Default-568h@2x.png */; };
+		0E6B56F31DCA053000C628CB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56ED1DCA053000C628CB /* Default.png */; };
+		0E6B56F41DCA053000C628CB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56EE1DCA053000C628CB /* Default@2x.png */; };
+		0E6B56F51DCA053000C628CB /* GravityClientDemoApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56EF1DCA053000C628CB /* GravityClientDemoApp-Info.plist */; };
+		0E6B56F61DCA053000C628CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56F11DCA053000C628CB /* main.m */; };
+		0E6B56F91DCA055C00C628CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56F71DCA055C00C628CB /* InfoPlist.strings */; };
+		0E6B56FC1DCA056300C628CB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56FA1DCA056300C628CB /* MainStoryboard.storyboard */; };
 		98AC4E29179681B1000A4F93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E28179681B1000A4F93 /* UIKit.framework */; };
 		98AC4E2B179681B1000A4F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E2A179681B1000A4F93 /* Foundation.framework */; };
 		98AC4E2D179681B1000A4F93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E2C179681B1000A4F93 /* CoreGraphics.framework */; };
-		98AC4E33179681B1000A4F93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98AC4E31179681B1000A4F93 /* InfoPlist.strings */; };
-		98AC4E35179681B1000A4F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E34179681B1000A4F93 /* main.m */; };
-		98AC4E39179681B1000A4F93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E38179681B1000A4F93 /* AppDelegate.m */; };
-		98AC4E3B179681B1000A4F93 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AC4E3A179681B1000A4F93 /* Default.png */; };
-		98AC4E3D179681B1000A4F93 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AC4E3C179681B1000A4F93 /* Default@2x.png */; };
-		98AC4E3F179681B1000A4F93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AC4E3E179681B1000A4F93 /* Default-568h@2x.png */; };
-		98AC4E42179681B1000A4F93 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98AC4E40179681B1000A4F93 /* MainStoryboard.storyboard */; };
-		98AC4E45179681B1000A4F93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E44179681B1000A4F93 /* ViewController.m */; };
-		98AC4E5E17968B9F000A4F93 /* RecommendationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E4C179681EE000A4F93 /* RecommendationViewController.m */; };
-		98AC4E5F17968B9F000A4F93 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4E4E179681EE000A4F93 /* SearchViewController.m */; };
 		98AC4E6617968E78000A4F93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E6517968E78000A4F93 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0E4B79121DC37C6E005800F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0E4B78811DC3772E005800F5;
-			remoteInfo = GravityClient;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GravityClient.xcodeproj; path = ../../../Documents/GravityClient/GravityClient.xcodeproj; sourceTree = "<group>"; };
 		0E4B79161DC37CA9005800F5 /* GravityClient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GravityClient-Prefix.pch"; path = "GravityClient/GravityClient-Prefix.pch"; sourceTree = "<group>"; };
 		0E4B79171DC37CA9005800F5 /* GravityClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityClient.h; path = GravityClient/GravityClient.h; sourceTree = "<group>"; };
 		0E4B79181DC37CA9005800F5 /* GravityClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityClient.m; path = GravityClient/GravityClient.m; sourceTree = "<group>"; };
@@ -78,28 +68,28 @@
 		0E4B79261DC37CA9005800F5 /* GravityScenarioInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityScenarioInfo.m; path = GravityClient/GravityScenarioInfo.m; sourceTree = "<group>"; };
 		0E4B79271DC37CA9005800F5 /* GravityUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GravityUser.h; path = GravityClient/GravityUser.h; sourceTree = "<group>"; };
 		0E4B79281DC37CA9005800F5 /* GravityUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GravityUser.m; path = GravityClient/GravityUser.m; sourceTree = "<group>"; };
-		0E6E760D1D4A280A00F18AD8 /* AddItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
-		0E6E760E1D4A288900F18AD8 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		0E6B56DD1DCA050E00C628CB /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddItemViewController.h; path = GravityClientDemoApp/AddItemViewController.h; sourceTree = SOURCE_ROOT; };
+		0E6B56DE1DCA050E00C628CB /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddItemViewController.m; path = GravityClientDemoApp/AddItemViewController.m; sourceTree = SOURCE_ROOT; };
+		0E6B56DF1DCA050E00C628CB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GravityClientDemoApp/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		0E6B56E01DCA050E00C628CB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GravityClientDemoApp/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		0E6B56E11DCA050E00C628CB /* RecommendationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecommendationViewController.h; path = GravityClientDemoApp/RecommendationViewController.h; sourceTree = SOURCE_ROOT; };
+		0E6B56E21DCA050E00C628CB /* RecommendationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecommendationViewController.m; path = GravityClientDemoApp/RecommendationViewController.m; sourceTree = SOURCE_ROOT; };
+		0E6B56E31DCA050E00C628CB /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchViewController.h; path = GravityClientDemoApp/SearchViewController.h; sourceTree = SOURCE_ROOT; };
+		0E6B56E41DCA050E00C628CB /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchViewController.m; path = GravityClientDemoApp/SearchViewController.m; sourceTree = SOURCE_ROOT; };
+		0E6B56E51DCA050E00C628CB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = GravityClientDemoApp/ViewController.h; sourceTree = SOURCE_ROOT; };
+		0E6B56E61DCA050E00C628CB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = GravityClientDemoApp/ViewController.m; sourceTree = SOURCE_ROOT; };
+		0E6B56EC1DCA053000C628CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "GravityClientDemoApp/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		0E6B56ED1DCA053000C628CB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = GravityClientDemoApp/Default.png; sourceTree = SOURCE_ROOT; };
+		0E6B56EE1DCA053000C628CB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "GravityClientDemoApp/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		0E6B56EF1DCA053000C628CB /* GravityClientDemoApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GravityClientDemoApp-Info.plist"; path = "GravityClientDemoApp/GravityClientDemoApp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0E6B56F01DCA053000C628CB /* GravityClientDemoApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GravityClientDemoApp-Prefix.pch"; path = "GravityClientDemoApp/GravityClientDemoApp-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		0E6B56F11DCA053000C628CB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GravityClientDemoApp/main.m; sourceTree = SOURCE_ROOT; };
+		0E6B56F81DCA055C00C628CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = GravityClientDemoApp/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		0E6B56FB1DCA056300C628CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = GravityClientDemoApp/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
 		98AC4E25179681B1000A4F93 /* GravityClientDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityClientDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AC4E28179681B1000A4F93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98AC4E2A179681B1000A4F93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		98AC4E2C179681B1000A4F93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		98AC4E30179681B1000A4F93 /* GravityClientDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GravityClientDemoApp-Info.plist"; sourceTree = "<group>"; };
-		98AC4E32179681B1000A4F93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		98AC4E34179681B1000A4F93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		98AC4E36179681B1000A4F93 /* GravityClientDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GravityClientDemoApp-Prefix.pch"; sourceTree = "<group>"; };
-		98AC4E37179681B1000A4F93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		98AC4E38179681B1000A4F93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98AC4E3A179681B1000A4F93 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		98AC4E3C179681B1000A4F93 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		98AC4E3E179681B1000A4F93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		98AC4E41179681B1000A4F93 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		98AC4E43179681B1000A4F93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98AC4E44179681B1000A4F93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		98AC4E4B179681EE000A4F93 /* RecommendationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendationViewController.h; sourceTree = "<group>"; };
-		98AC4E4C179681EE000A4F93 /* RecommendationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendationViewController.m; sourceTree = "<group>"; };
-		98AC4E4D179681EE000A4F93 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
-		98AC4E4E179681EE000A4F93 /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		98AC4E6517968E78000A4F93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -144,14 +134,6 @@
 			name = GravityClient;
 			sourceTree = "<group>";
 		};
-		0E4B790F1DC37C6E005800F5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0E4B79131DC37C6E005800F5 /* libGravityClient.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		98AC4E1C179681B1000A4F93 = {
 			isa = PBXGroup;
 			children = (
@@ -184,18 +166,17 @@
 		98AC4E2E179681B1000A4F93 /* GravityClientDemoApp */ = {
 			isa = PBXGroup;
 			children = (
-				0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */,
-				98AC4E40179681B1000A4F93 /* MainStoryboard.storyboard */,
-				98AC4E37179681B1000A4F93 /* AppDelegate.h */,
-				98AC4E38179681B1000A4F93 /* AppDelegate.m */,
-				0E6E760D1D4A280A00F18AD8 /* AddItemViewController.h */,
-				0E6E760E1D4A288900F18AD8 /* AddItemViewController.m */,
-				98AC4E43179681B1000A4F93 /* ViewController.h */,
-				98AC4E44179681B1000A4F93 /* ViewController.m */,
-				98AC4E4B179681EE000A4F93 /* RecommendationViewController.h */,
-				98AC4E4C179681EE000A4F93 /* RecommendationViewController.m */,
-				98AC4E4D179681EE000A4F93 /* SearchViewController.h */,
-				98AC4E4E179681EE000A4F93 /* SearchViewController.m */,
+				0E6B56FA1DCA056300C628CB /* MainStoryboard.storyboard */,
+				0E6B56DD1DCA050E00C628CB /* AddItemViewController.h */,
+				0E6B56DE1DCA050E00C628CB /* AddItemViewController.m */,
+				0E6B56DF1DCA050E00C628CB /* AppDelegate.h */,
+				0E6B56E01DCA050E00C628CB /* AppDelegate.m */,
+				0E6B56E11DCA050E00C628CB /* RecommendationViewController.h */,
+				0E6B56E21DCA050E00C628CB /* RecommendationViewController.m */,
+				0E6B56E31DCA050E00C628CB /* SearchViewController.h */,
+				0E6B56E41DCA050E00C628CB /* SearchViewController.m */,
+				0E6B56E51DCA050E00C628CB /* ViewController.h */,
+				0E6B56E61DCA050E00C628CB /* ViewController.m */,
 				98AC4E2F179681B1000A4F93 /* Supporting Files */,
 			);
 			name = GravityClientDemoApp;
@@ -205,13 +186,13 @@
 		98AC4E2F179681B1000A4F93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				98AC4E30179681B1000A4F93 /* GravityClientDemoApp-Info.plist */,
-				98AC4E31179681B1000A4F93 /* InfoPlist.strings */,
-				98AC4E34179681B1000A4F93 /* main.m */,
-				98AC4E36179681B1000A4F93 /* GravityClientDemoApp-Prefix.pch */,
-				98AC4E3A179681B1000A4F93 /* Default.png */,
-				98AC4E3C179681B1000A4F93 /* Default@2x.png */,
-				98AC4E3E179681B1000A4F93 /* Default-568h@2x.png */,
+				0E6B56F71DCA055C00C628CB /* InfoPlist.strings */,
+				0E6B56EC1DCA053000C628CB /* Default-568h@2x.png */,
+				0E6B56ED1DCA053000C628CB /* Default.png */,
+				0E6B56EE1DCA053000C628CB /* Default@2x.png */,
+				0E6B56EF1DCA053000C628CB /* GravityClientDemoApp-Info.plist */,
+				0E6B56F01DCA053000C628CB /* GravityClientDemoApp-Prefix.pch */,
+				0E6B56F11DCA053000C628CB /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -267,12 +248,6 @@
 			mainGroup = 98AC4E1C179681B1000A4F93;
 			productRefGroup = 98AC4E26179681B1000A4F93 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0E4B790F1DC37C6E005800F5 /* Products */;
-					ProjectRef = 0E4B78B21DC3782D005800F5 /* GravityClient.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				98AC4E24179681B1000A4F93 /* GravityClientDemoApp */,
@@ -281,26 +256,17 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		0E4B79131DC37C6E005800F5 /* libGravityClient.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGravityClient.a;
-			remoteRef = 0E4B79121DC37C6E005800F5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		98AC4E23179681B1000A4F93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98AC4E33179681B1000A4F93 /* InfoPlist.strings in Resources */,
-				98AC4E3B179681B1000A4F93 /* Default.png in Resources */,
-				98AC4E3D179681B1000A4F93 /* Default@2x.png in Resources */,
-				98AC4E3F179681B1000A4F93 /* Default-568h@2x.png in Resources */,
-				98AC4E42179681B1000A4F93 /* MainStoryboard.storyboard in Resources */,
+				0E6B56FC1DCA056300C628CB /* MainStoryboard.storyboard in Resources */,
+				0E6B56F41DCA053000C628CB /* Default@2x.png in Resources */,
+				0E6B56F31DCA053000C628CB /* Default.png in Resources */,
+				0E6B56F21DCA053000C628CB /* Default-568h@2x.png in Resources */,
+				0E6B56F51DCA053000C628CB /* GravityClientDemoApp-Info.plist in Resources */,
+				0E6B56F91DCA055C00C628CB /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,39 +294,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98AC4E5E17968B9F000A4F93 /* RecommendationViewController.m in Sources */,
 				0E4B792A1DC37CA9005800F5 /* GravityEvent.m in Sources */,
+				0E6B56E71DCA050E00C628CB /* AddItemViewController.m in Sources */,
 				0E4B792F1DC37CA9005800F5 /* GravityRequest.m in Sources */,
 				0E4B792D1DC37CA9005800F5 /* GravityNameValue.m in Sources */,
 				0E4B79311DC37CA9005800F5 /* GravityUser.m in Sources */,
+				0E6B56E91DCA050E00C628CB /* RecommendationViewController.m in Sources */,
+				0E6B56F61DCA053000C628CB /* main.m in Sources */,
+				0E6B56EA1DCA050E00C628CB /* SearchViewController.m in Sources */,
 				0E4B792C1DC37CA9005800F5 /* GravityItemRecommendation.m in Sources */,
 				0E4B79291DC37CA9005800F5 /* GravityClient.m in Sources */,
-				0E6E760F1D4A288900F18AD8 /* AddItemViewController.m in Sources */,
-				98AC4E5F17968B9F000A4F93 /* SearchViewController.m in Sources */,
-				98AC4E35179681B1000A4F93 /* main.m in Sources */,
-				98AC4E39179681B1000A4F93 /* AppDelegate.m in Sources */,
+				0E6B56EB1DCA050E00C628CB /* ViewController.m in Sources */,
+				0E6B56E81DCA050E00C628CB /* AppDelegate.m in Sources */,
 				0E4B792E1DC37CA9005800F5 /* GravityRecommendationContext.m in Sources */,
 				0E4B792B1DC37CA9005800F5 /* GravityItem.m in Sources */,
 				0E4B79301DC37CA9005800F5 /* GravityScenarioInfo.m in Sources */,
-				98AC4E45179681B1000A4F93 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		98AC4E31179681B1000A4F93 /* InfoPlist.strings */ = {
+		0E6B56F71DCA055C00C628CB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98AC4E32179681B1000A4F93 /* en */,
+				0E6B56F81DCA055C00C628CB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		98AC4E40179681B1000A4F93 /* MainStoryboard.storyboard */ = {
+		0E6B56FA1DCA056300C628CB /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				98AC4E41179681B1000A4F93 /* en */,
+				0E6B56FB1DCA056300C628CB /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
