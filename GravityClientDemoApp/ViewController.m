@@ -60,6 +60,7 @@
 - (void)didReceiveResponse:(NSString *)response forRequest:(GravityRequest *)request{
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Server response" message:response delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
     [alert show];
+    NSLog(@"resp: %@", response);
     [self.helloTextField resignFirstResponder];
 
 }

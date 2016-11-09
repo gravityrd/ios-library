@@ -32,7 +32,8 @@
 	// Do any additional setup after loading the view.
     gc = [[GravityClient alloc] initWithURL:@"https://webshopdemo2-bud.gravityrd-services.com/grrec-webshopdemo2-war/WebshopServlet" username:@"webshopdemo2" password:@"waeLoot2zo"];
     [gc setDelegate:self];
-    [gc setUserId:@"iPhoneClient"];
+    //[gc setUserId: nil]; //we should set nil object, if we do not know the userId
+    [gc setUserId: @"iPhoneUser"];
     locationManager = [[CLLocationManager alloc] init];
 }
 
@@ -66,6 +67,8 @@
     event.itemId = itemId;
     event.userId = userId;
     event.type = @"REC_CLICK";
+    NSLog(userId);
+    NSLog(event.userId);
     event.nameValues = [[NSMutableArray alloc] initWithObjects:
                         [[GravityNameValue alloc] initWithName:@"unitPrice" value:@"199.9"],
                         [[GravityNameValue alloc] initWithName:@"quantity" value:@"1"],

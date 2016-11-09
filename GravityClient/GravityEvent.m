@@ -22,12 +22,21 @@
         for(GravityNameValue *nameValue in event.nameValues) {
             [nameValues addObject:[nameValue dictionary]];
         }
-        NSDictionary *dict = @{
-                               @"itemId": event.itemId,
-                               @"userId": event.userId,
-                               @"eventType": event.type,
-                               @"nameValues":nameValues
-                               };
+        NSDictionary *dict;
+        if(event.userId){
+            dict = @{
+                    @"itemId": event.itemId,
+                    @"userId": event.userId,
+                    @"eventType": event.type,
+                    @"nameValues":nameValues
+                };
+        } else {
+            dict = @{
+                    @"itemId": event.itemId,
+                    @"eventType": event.type,
+                    @"nameValues":nameValues
+                };
+            }
         [data addObject:dict];
     }
     return [NSJSONSerialization dataWithJSONObject:data options:0 error:nil];
