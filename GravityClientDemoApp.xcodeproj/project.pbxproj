@@ -42,6 +42,7 @@
 		0E6B56F61DCA053000C628CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6B56F11DCA053000C628CB /* main.m */; };
 		0E6B56F91DCA055C00C628CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56F71DCA055C00C628CB /* InfoPlist.strings */; };
 		0E6B56FC1DCA056300C628CB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E6B56FA1DCA056300C628CB /* MainStoryboard.storyboard */; };
+		0E7C700A1DE447D000C3D242 /* AppledocSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E7C70091DE447D000C3D242 /* AppledocSettings.plist */; };
 		98AC4E29179681B1000A4F93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E28179681B1000A4F93 /* UIKit.framework */; };
 		98AC4E2B179681B1000A4F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E2A179681B1000A4F93 /* Foundation.framework */; };
 		98AC4E2D179681B1000A4F93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AC4E2C179681B1000A4F93 /* CoreGraphics.framework */; };
@@ -86,6 +87,7 @@
 		0E6B56F11DCA053000C628CB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GravityClientDemoApp/main.m; sourceTree = SOURCE_ROOT; };
 		0E6B56F81DCA055C00C628CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = GravityClientDemoApp/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		0E6B56FB1DCA056300C628CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = GravityClientDemoApp/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		0E7C70091DE447D000C3D242 /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
 		98AC4E25179681B1000A4F93 /* GravityClientDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityClientDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AC4E28179681B1000A4F93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98AC4E2A179681B1000A4F93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +139,7 @@
 		98AC4E1C179681B1000A4F93 = {
 			isa = PBXGroup;
 			children = (
+				0E7C70091DE447D000C3D242 /* AppledocSettings.plist */,
 				0E4B79051DC37BCC005800F5 /* GravityClient */,
 				98AC4E2E179681B1000A4F93 /* GravityClientDemoApp */,
 				98AC4E27179681B1000A4F93 /* Frameworks */,
@@ -263,6 +266,7 @@
 			files = (
 				0E6B56FC1DCA056300C628CB /* MainStoryboard.storyboard in Resources */,
 				0E6B56F41DCA053000C628CB /* Default@2x.png in Resources */,
+				0E7C700A1DE447D000C3D242 /* AppledocSettings.plist in Resources */,
 				0E6B56F31DCA053000C628CB /* Default.png in Resources */,
 				0E6B56F21DCA053000C628CB /* Default-568h@2x.png in Resources */,
 				0E6B56F51DCA053000C628CB /* GravityClientDemoApp-Info.plist in Resources */,
@@ -275,7 +279,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		0E04AD261D5A262800A34072 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputPaths = (
@@ -283,7 +287,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /usr/bin/xcrun;
 			shellScript = "--project-name \"GravityClient\" \\\n--project-company \"Gravity R&D\" \\\n--company-id \"com.gravityrd\" \\\n--output \"./doc\" \\\n--keep-intermediate-files \\\n--install-docset \\\n--logformat xcode \\\n--keep-merged-sections \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--merge-categories \\\n--exit-threshold 2 \\\n--docset-platform-family iphoneos \\\n--ignore \"\" \\\n\"~/GravityClientDemoApp\"";
 		};

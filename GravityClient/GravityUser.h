@@ -18,6 +18,11 @@
  */
 @property NSString *userId;
 
+/**
+ cookieId of the user
+ */
+@property NSString *cookieId;
+
 
 /**
  Visibilty flag of the user

@@ -32,8 +32,8 @@
 	// Do any additional setup after loading the view.
     gc = [[GravityClient alloc] initWithURL:@"https://webshopdemo2-bud.gravityrd-services.com/grrec-webshopdemo2-war/WebshopServlet" username:@"webshopdemo2" password:@"waeLoot2zo"];
     [gc setDelegate:self];
-    //[gc setUserId: nil]; //we should set nil object, if we do not know the userId
-    [gc setUserId: @"iPhoneUser"];
+    [gc setUserId: nil]; //we should set nil object, if we do not know the userId
+    //[gc setUserId: @"iPhoneUser"];
     locationManager = [[CLLocationManager alloc] init];
 }
 
@@ -43,7 +43,7 @@
 
 - (IBAction)recommendButtonTap:(id)sender{
     //[gc getItemRecommendations:@"ITEM_CATEGORY_LIST" limit:10 resultNameValues:@[@"title"]];
-    [gc getItemRecommendations:@"ITEM_CATEGORY_LIST" limit:10 resultNameValues:@[@"title"] attributes:@[[GravityNameValue nameValueWithName:@"currentItemId" value:@"sampleItem2"]]];
+    [gc getItemRecommendations:@"ITEM_CATEGORY_LIST" limit:20 resultNameValues:@[@"title"] attributes:@[[GravityNameValue nameValueWithName:@"currentItemId" value:@"1000157509"]]];
    }
 
 - (void)didReceiveMemoryWarning
@@ -63,12 +63,12 @@
     NSLog(@"Accessory Tap");
     NSString *itemId = [tableView cellForRowAtIndexPath:indexPath].textLabel.text;
     NSString *userId = [gc userId];
+    NSString *cookieId = [gc cookieId];
     GravityEvent *event = [[GravityEvent alloc] init];
     event.itemId = itemId;
     event.userId = userId;
+    event.cookieId = cookieId;
     event.type = @"REC_CLICK";
-    NSLog(userId);
-    NSLog(event.userId);
     event.nameValues = [[NSMutableArray alloc] initWithObjects:
                         [[GravityNameValue alloc] initWithName:@"unitPrice" value:@"199.9"],
                         [[GravityNameValue alloc] initWithName:@"quantity" value:@"1"],

@@ -25,6 +25,11 @@
 @property NSString *userId;
 
 /**
+ The cookieID of the user
+ */
+@property NSString *cookieId;
+
+/**
  Type of event
  */
 @property NSString *type;

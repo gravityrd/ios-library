@@ -12,7 +12,7 @@
 @implementation GravityEvent
 
 - (NSString *)description {
-    return [NSString stringWithFormat: @"GravityEvent: itemId=%@ userId=%@ type=%@ nameValues=%@", _itemId, _userId, _type, _nameValues];
+    return [NSString stringWithFormat: @"GravityEvent: itemId=%@ userId=%@ cookieId=%@ type=%@ nameValues=%@", _itemId, _userId, _cookieId, _type, _nameValues];
 }
 
 + (NSData *)eventsToJSON:(NSArray *)events {
@@ -27,12 +27,14 @@
             dict = @{
                     @"itemId": event.itemId,
                     @"userId": event.userId,
+                    @"cookieId": event.cookieId,
                     @"eventType": event.type,
                     @"nameValues":nameValues
                 };
         } else {
             dict = @{
                     @"itemId": event.itemId,
+                    @"cookieId": event.cookieId,
                     @"eventType": event.type,
                     @"nameValues":nameValues
                 };
