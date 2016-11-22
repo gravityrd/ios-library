@@ -23,7 +23,7 @@
             [nameValues addObject:[nameValue dictionary]];
         }
         NSDictionary *dict;
-        if(event.userId){
+        if(event.userId && event.itemId){
             dict = @{
                     @"itemId": event.itemId,
                     @"userId": event.userId,
@@ -31,14 +31,27 @@
                     @"eventType": event.type,
                     @"nameValues":nameValues
                 };
-        } else {
+        } else if(event.userId){
+            dict = @{
+                     @"userId": event.userId,
+                     @"cookieId": event.cookieId,
+                     @"eventType": event.type,
+                     @"nameValues":nameValues
+                };
+        } else if(event.itemId){
             dict = @{
                     @"itemId": event.itemId,
                     @"cookieId": event.cookieId,
                     @"eventType": event.type,
                     @"nameValues":nameValues
                 };
-            }
+        } else{
+            dict = @{
+                     @"cookieId": event.cookieId,
+                     @"eventType": event.type,
+                     @"nameValues":nameValues
+                };
+        }
         [data addObject:dict];
     }
     return [NSJSONSerialization dataWithJSONObject:data options:0 error:nil];

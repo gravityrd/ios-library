@@ -74,6 +74,10 @@
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     NSLog(@"Network error!");
+    if(self.completionHandler){
+        self.completionHandler(self);
+    }
+    _completed = YES;
 }
 
 #pragma mark NSURLConnectionDataDelegate methods
