@@ -139,6 +139,21 @@ FOUNDATION_EXPORT GravityResultOrder const GravityResultOrderPopular;
 - (id)initWithURL:(NSString *)url username:(NSString *)username password:(NSString *)password;
 
 /**
+ Same as init but without location tracking
+ */
+- (id)initNoLocationTracking;
+
+/**
+ Same as initWithURL but without location tracking
+ */
+- (id)initWithURLNoLocationTracking:(NSString *)url;
+
+/**
+ Same as initWithURL user and password version but without location tracking
+ */
+- (id)initWithURLNoLocationTracking:(NSString *)url username:(NSString *)username password:(NSString *)password;
+
+/**
  Calls a test REST API call which says hello to the given name
  @param name the name to say hello to
  @return a reference the the request object

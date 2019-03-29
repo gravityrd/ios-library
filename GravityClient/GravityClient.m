@@ -22,16 +22,47 @@ GravityResultOrder const GravityResultOrderPopular = @"popular";
 
 @interface GravityClient (){
     CLLocationManager *locationManager;
+    Boolean isLocationTrackingEnabled;
 }
 @end
 
 @implementation GravityClient
+
+- (id)initNoLocationTracking {
+    self = [super init];
+    if (self) {
+        self.recommendedItems = [NSMutableDictionary dictionary];
+        self.cookieId = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+        //[self trackLocation];
+        isLocationTrackingEnabled = false;
+    }
+    return self;
+}
+
+- (id)initWithURLNoLocationTracking:(NSString *)url {
+    self = [self initNoLocationTracking];
+    if (self) {
+        self.baseURL = url;
+    }
+    return self;
+}
+
+- (id)initWithURLNoLocationTracking:(NSString *)url username:(NSString *)username password:(NSString *)password {
+    self = [self initNoLocationTracking];
+    if (self) {
+        self.baseURL = url;
+        self.username = username;
+        self.password = password;
+    }
+    return self;
+}
 
 - (id)init {
     self = [super init];
     if (self) {
         self.recommendedItems = [NSMutableDictionary dictionary];
         self.cookieId = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+        isLocationTrackingEnabled = true;
         [self trackLocation];
     }
     return self;
@@ -128,9 +159,11 @@ GravityResultOrder const GravityResultOrderPopular = @"popular";
 }
 
 - (GravityRequest *)addEvent:(GravityEvent *)event {
-    [event setLocation:self.location];
-    NSLog(@"ev_loc_long: %f", self.location.coordinate.longitude);
-    NSLog(@"ev_loc_lat: %f", self.location.coordinate.latitude);
+    if(isLocationTrackingEnabled){
+        [event setLocation:self.location];
+        NSLog(@"ev_loc_long: %f", self.location.coordinate.longitude);
+        NSLog(@"ev_loc_lat: %f", self.location.coordinate.latitude);
+    }
     return [self addEvents:[[NSArray alloc] initWithObjects:event, nil]];
 }
 
@@ -194,16 +227,20 @@ GravityResultOrder const GravityResultOrderPopular = @"popular";
 #pragma mark CLLocationManagerDelegate methods
 
 - (void)trackLocation{
-    if(locationManager == nil) {
-        locationManager =[[CLLocationManager alloc] init];
-        locationManager.delegate = self;
-        locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
-        locationManager.distanceFilter = kCLDistanceFilterNone;
-        //NSLog(@"trackLocation");
+    if(isLocationTrackingEnabled){
+        if(locationManager == nil) {
+            locationManager =[[CLLocationManager alloc] init];
+            locationManager.delegate = self;
+            locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+            locationManager.distanceFilter = kCLDistanceFilterNone;
+            //NSLog(@"trackLocation");
+        }
+        [locationManager requestWhenInUseAuthorization];
+        [locationManager startMonitoringSignificantLocationChanges];
+        [locationManager startUpdatingLocation];
+    }else{
+        NSLog(@"nO LoCAtIonTracKiNG");
     }
-    [locationManager requestWhenInUseAuthorization];
-    [locationManager startMonitoringSignificantLocationChanges];
-    [locationManager startUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{

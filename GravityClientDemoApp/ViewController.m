@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    gc = [[GravityClient alloc] initWithURL:@"https://webshopdemo2-bud.gravityrd-services.com/grrec-webshopdemo2-war/WebshopServlet" username:@"webshopdemo2" password:@"waeLoot2zo"];
+    gc = [[GravityClient alloc] initWithURLNoLocationTracking:@"https://webshopdemo2-bud.gravityrd-services.com/grrec-webshopdemo2-war/WebshopServlet" username:@"webshopdemo2" password:@"waeLoot2zo"];
     [gc trackLocation];
     [gc setDelegate:self];
     [gc setUserId:@"iPhoneClient"];
